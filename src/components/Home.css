@@ -89,6 +89,56 @@
   margin-left: 6px;
   margin-bottom: 0px;
 }
+.skills{
+  padding-top: 40px;
+}
+.skills h1{
+  font-size: 2rem;
+}
+.skill_tag{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  margin-top: 40px;
+  margin-bottom: 30px; 
+  border: solid rgb(181, 181, 187) 1px;
+  border-radius: 10px;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.img_skill{
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin-left: 10px;
+}
+.skill_tag h1{
+  font-size: 1.5rem;
+  text-align: left;
+}
+.skill_tag:hover{
+  box-shadow: rgb(211, 230, 233) 0.7px 0.7px 1.2px 1.2px;
+}
+.skill_det{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+.skill_tag img{
+  width: 110px;
+  height: 110px;
+}
+.skill_det span{
+  color: rgb(43, 9, 9);
+  font-weight: bold;
+}
+.skills hr{
+  background-color: black;
+}
 /* Typing Animation */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .right{
@@ -162,6 +212,7 @@
     left: 0;
   }
 }
+
 @media only screen and (max-width: 1250px) {
     .wrapper{
         display: flex;
@@ -218,10 +269,26 @@
   }
 
 }
+@media only screen and (max-width: 800px) {
+  .skill_tag{
+    width: 600px;
+  }
+
+}
+
 @media only screen and (max-width: 700px) {
   .left img{
     width: 80%;
     height: 300px;
+  }
+  .skill_tag{
+    width: 450px;
+  }
+  .skill_tag h1{
+    font-size: 1.1rem;
+  }
+  .skill_tag p{
+    font-size: 1rem;
   }
   
 }
@@ -267,6 +334,17 @@
     .point_det{
       grid-template-columns: repeat(1,auto);
     }
+    .skill_tag{
+      flex-direction: column;
+      width: 80%;
+    }
+    .skill_det{
+      padding-top: 30px;
+    }
+    .img_skill{
+      margin-left: 0px;
+      width: 100%;
+    }
 }
 @media only screen and (max-width: 400px) {
   .left img{
@@ -275,5 +353,8 @@
   }
   .left{
     height: 250px;
+  }
+  .skill_det{
+    margin-left: 20px;
   }
 }

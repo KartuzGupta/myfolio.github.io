@@ -6,6 +6,11 @@ import home from './Img/home.png'
 import dob from './Img/dob.png'
 import phone from './Img/phone.png'
 import email from './Img/email.png'
+import frontend from './Img/frontendlogo.png'
+import cp from './Img/cplogo.png'
+import devtool from './Img/devtool.png'
+
+
 export default function Home() {
     return (
         <div style={home_style}>
@@ -58,6 +63,41 @@ export default function Home() {
                     </div>    
                 </div>
             </section>
+            <section className="skills">
+                <h1>Skills</h1>
+                <hr className="hrhome"/>
+                <div className="skill_tag">
+                    <div className="img_skill">
+                    <img src={frontend} alt="" srcset="" />
+                    </div>
+                    <div className="skill_det">
+                    <h1>Frontend Web Development</h1>
+                    <p>Languages: HTML/CSS, JavaScript</p>
+                    <p>Framework: ReactJS</p>
+                    </div>
+               </div>
+               <div className="skill_tag">
+                    <div className="img_skill">
+                    <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
+                    </div>
+                    <div className="skill_det">
+                    <h1>Competitive Programming</h1>
+                    <p>Languages: C++ , C</p>
+                    <p><span>Codechef</span> 1711(max. rating)</p>
+                    <p><span>Codeforces</span> 1103(max. rating)</p>
+                    </div>
+               </div>
+               <div className="skill_tag">
+                    <div className="img_skill">
+                    <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
+                    </div>
+                    <div className="skill_det">
+                    <h1>Other Developer Tools</h1>
+                    <p>VS Code, GitHub</p>
+                    </div>
+               </div>
+            </section>
         </div>
     )
 }
+

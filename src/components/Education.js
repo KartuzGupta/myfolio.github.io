@@ -22,7 +22,9 @@ export default function Education() {
                 </div>
                 <div className="right_e">
                     <h1>Education</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ex quia veniam quasi vel rerum.</p>
+                    <p>Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
+                    </p>
+                    <p>– Malcolm X</p>
                 </div>
             </div>
             <div className="educate_tag">

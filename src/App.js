@@ -13,7 +13,7 @@ function App() {
       {/* <Navigation/> */}
       <Navigator/>
       <Router>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/"  component={Home} />
         <Route exact path="/Education" component={Education}/>
         <Route exact path="/Experience" component={Experience}/>
       </Router>  
