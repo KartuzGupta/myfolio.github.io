@@ -3,14 +3,15 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Navigation from './components/Navigation';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import ScrollButton from './components/ScrollButton';
+import Navigator from './components/Navigator';
 function App() {
   return (
     <div className="App">
-      <Navigation/>
+      {/* <Navigation/> */}
+      <Navigator/>
       <Router>
         <Route exact path="/" component={Home}/>
         <Route exact path="/Education" component={Education}/>
