@@ -20,4 +20,4 @@ font-size: 3rem;
 z-index: 1;
 cursor: pointer;
 color: #82c3c3;
-`
+`;

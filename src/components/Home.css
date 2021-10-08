@@ -13,7 +13,7 @@
     align-items: center;
 }
 .left img{
-    width: 660px;
+    width: 700px;
     height: 430px;
     position: relative;
     margin-top: 50px;
@@ -37,6 +37,57 @@
     width: 300px;
     height: 300px;
     margin: 30px 0px;
+}
+.abt_me{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(253 240 240);
+}
+.abt_me h1{
+   font-size: 2rem;
+   margin-top: 30px;
+}
+.para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.para1{
+  margin: auto; 
+  margin-top: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.point_det{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  margin: 10px auto;
+  padding: 0px;
+  grid-column-gap: 100px ;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.hrhome{
+  width: 50%;
+  background-color: rgb(158, 153, 153);
+  margin: auto;
+  display: block;
+}
+.ico{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.ico img{
+  width: 30px;
+  height: 30px;
+}
+.ico p{
+  margin-top: 2px;
+  margin-left: 6px;
+  margin-bottom: 0px;
 }
 /* Typing Animation */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -151,7 +202,21 @@
     .left img{
         margin-top: 100px;
     }
-   
+    .para1{
+      width: 75%;
+    }  
+}
+@media only screen and (max-width: 1000px) {
+  .point_det{
+    grid-column-gap: 50px;
+  }
+}  
+@media only screen and (max-width: 900px) {
+  .point_det{
+    grid-template-columns: repeat(2,auto);
+    grid-row-gap: 30px ;
+  }
+
 }
 @media only screen and (max-width: 700px) {
   .left img{
@@ -198,6 +263,9 @@
       }
       .right{
         height: 650px;
+    }
+    .point_det{
+      grid-template-columns: repeat(1,auto);
     }
 }
 @media only screen and (max-width: 400px) {
