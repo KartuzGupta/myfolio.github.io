@@ -1,10 +1,11 @@
 import React from 'react'
 import exp_styles from './Experience.css'
-import Edu from './Edu'
+import Exp from './Exp'
 import exp from './Img/exp.png'
 import barberalogo from './Img/barberalogo.png'
 import infinito from './Img/infinito.png'
-//import barberalogo from './Img/barberalogo.png'
+import ecelllogo from './Img/ecelllogo.png'
+import njacklogo from './Img/njacklogo.jpg'
 
 export default function Experience() {
     return (
@@ -19,28 +20,36 @@ export default function Experience() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ex quia veniam quasi vel rerum.</p>
                 </div>
             </div>
-            <h1>Work Experience</h1>
+            <h1 className="exp_h1">Work Experience</h1>
             <hr className="hrstyle" />
             <div className="educate_tag">
                 <div className="img_ex">
                 <img src={barberalogo} alt="" srcset="" />
                 </div>
-                <Edu title='Barbera' time='Front-End Web Developer' degree='July 2021 - Present' marks='Trainee'/>
+                <Exp title='Barbera' position='Front-End Web Developer' time='July 2021 - Present' role='Trainee'/>
             </div>
-            <h1>Volunteering</h1>
+            <h1 className="exp_h1">POR's</h1>
             <hr className="hrstyle" />
             <div className="educate_tag">
                 <div className="img_ex">
                 <img src={infinito} alt="" srcset="" />
                 </div>
-                <Edu title='Infinito IIT Patna' time='Sub-Coord, Web and App Dev Committee' degree='August 2021 - Present'/>
+                <Exp title='Infinito IIT Patna' position='Sub-Coord, Web and App Dev Committee' time='August 2021 - Present' role='Annual Sports Fest of IIT Patna'/>
             </div>
             <div className="educate_tag">
-                <div className="img_ed">
-                <img src="" alt="" srcset="" />
+                <div className="img_ex">
+                <img src={ecelllogo} alt="" srcset="" />
                 </div>
-                <Edu title='E-Cell IIT Patna' time='Sub-Coord, Tech and Dev Committe' degree='10th CISCE Board' marks='95%'/>
+                <Exp title='E-Cell IIT Patna' position='Sub-Coord, Tech and Dev Committe' time='August 2021 - Present' role=''/>
             </div>
+            <div className="educate_tag">
+                <div className="img_ex">
+                <img src={njacklogo} alt="" srcset="" />
+                </div>
+                <Exp title='NJACK IIT Patna, OS and Dev' position='Sub-Coord, OS and Dev' time='October 2021 - Present' role=''/>
+            </div>
+            <br/>
+            <br/>
             </div>
         
         

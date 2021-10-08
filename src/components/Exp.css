@@ -1,0 +1,27 @@
+.front_ext{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 20px;
+}
+.front_ext h1{
+    text-align: left;
+    color: rgb(70, 68, 68);
+}
+.front_ext h2{
+    font-size: 1.45rem;
+}
+.front_ext p{
+    margin-bottom: auto;
+}
+@media only screen and (max-width : 600px) {
+    .front_ext h1{
+        font-size: 1.2rem;
+        /* margin-top: 20px; */
+    }
+    
+}
+.exp_hr{
+    color: black;
+    width: 60%;
+}

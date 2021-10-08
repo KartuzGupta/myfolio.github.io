@@ -58,6 +58,23 @@
     display: flex;
     justify-content: center;
 }
+.lang_box img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+.lang_box{
+    display: grid;
+    grid-template-columns: repeat(3,170px);
+    margin: 30px auto;
+    grid-row-gap: 30px;
+}
+.lang_edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 
 @media only screen and (max-width: 1200px){
     .educate_tag{
@@ -137,6 +154,12 @@
 
     
 }
+@media only screen and (max-width: 550px) { 
+    .lang_box{
+        grid-template-columns: repeat(2,150px);
+    }
+}
+
 @media only screen and (max-width: 500px) { 
     
     .left_e img{
@@ -162,6 +185,9 @@
     .front_e{
         height: 650px;
     }
-    
+    .lang_box img{
+        width: 100px;
+        height: 100px;
+    }
     
 }

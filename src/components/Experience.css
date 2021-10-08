@@ -35,7 +35,7 @@
 .educate_tag{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
     border: solid rgb(148, 149, 150) 1px;
     width: 55%;
@@ -54,9 +54,11 @@
     border-radius: 200px;
     margin-right: 30px;
 }
-.img_ed{
+.img_ex{
     display: flex;
     justify-content: center;
+    align-content: center;
+    margin: auto 15px;
 }
 
 @media only screen and (max-width: 1200px){
@@ -152,7 +154,7 @@
 @media only screen and (max-width: 415px) { 
     
     .left_ex img{
-        height: 73%;
+        height: 65%;
         margin-top: 50px;
     }
     .right_ex{
@@ -169,4 +171,8 @@
     width: 40%;
     display: block;
     margin: auto;
+}
+.exp_h1{
+    font-size: 2rem;
+    color: rgb(37, 27, 27);
 }
