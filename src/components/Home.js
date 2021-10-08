@@ -1,13 +1,13 @@
 import React from 'react'
 import home_style from './Home.css'
-import logo from './Img/Logo_rb.png'
+import welocome from './Img/welcome.png'
 import profile from './Img/profile.png'
 export default function Home() {
     return (
         <div style={home_style}>
             <div className="front">
                 <div className="left">
-                    <img src={logo} alt="Logo" srcset="" />
+                    <img src={welocome} alt="Logo" srcset="" />
                 </div>
                 <div className="right">
                     <div className="name-txt">
