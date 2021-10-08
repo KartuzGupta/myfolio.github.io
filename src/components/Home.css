@@ -1,0 +1,204 @@
+.front{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("./Img/Background_front.jpg");
+    background-position: center;
+    background-size: cover;
+    backface-visibility: visible;
+}
+
+.left{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 550px;
+    height: 500px;
+    position: relative;
+    margin-top: 50px;
+}
+/* .left::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background:rgb(165, 228, 225);
+    opacity: 10%;
+} */
+.name-txt{
+    font-size: 2rem;
+    text-align: center;
+    width: 70%;
+    color: black;
+    background-color: white;
+}
+.profile-pic img{
+    width: 300px;
+    height: 300px;
+    margin: 30px 0px;
+}
+/* Typing Animation */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.right{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+}
+.wrapper{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: rgb(53, 46, 46);
+  font-size:  2rem;
+  font-weight: 400;
+  background-color: white;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height:  3rem;
+  line-height:  3rem;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: black;
+  font-size:  2rem;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+  background-color: white;
+}
+@keyframes slide {
+  100%{
+    top: -12rem;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height:  3rem;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-left: 2px solid black;
+  animation: typing 3s steps(10) infinite;
+}
+.dynamic-txts{
+    padding-left: 5px;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 0.5rem);
+  }
+  100%{
+    left: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wrapper .static-txt{
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      .wrapper .dynamic-txts{
+        height:  2.25rem;
+        line-height:  2.25rem;
+      }
+      @keyframes slide {
+        100%{
+          top: -9rem;
+        }
+      }
+      .dynamic-txts li span{
+        line-height:  2.25rem;
+      }
+      .dynamic-txts li{
+          font-size: 1.5rem;
+      }
+    
+}
+@media only screen and (max-width: 950px){
+    .front{
+        flex-direction: column;
+    }
+    .left::before{
+        height: 70vh;
+        width: 100%;
+    }
+    .left{
+        height: 70vh;
+    }
+    .right{
+        height: 650px;
+    }
+    .left img{
+        margin-top: 100px;
+    }
+   
+}
+@media only screen and (max-width: 500px) { 
+    .left{
+        height: 60vh;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .wrapper .static-txt{
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      .wrapper .dynamic-txts{
+        height:  1.95rem;
+        line-height:  1.95rem;
+      }
+      @keyframes slide {
+        100%{
+          top: -7.8rem;
+        }
+      }
+      .dynamic-txts li span{
+        line-height:  1.95rem;
+      }
+      .dynamic-txts li{
+          font-size: 1.3rem;
+      }
+      .name-txt{
+          font-size: 1.4rem;
+          width: 70%;
+      }
+      .right{
+        height: 650px;
+    }
+    .left img{
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+    }
+}
