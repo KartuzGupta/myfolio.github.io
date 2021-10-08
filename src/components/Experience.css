@@ -38,14 +38,14 @@
     justify-content: flex-start;
     align-content: center;
     border: solid rgb(148, 149, 150) 1px;
-    width: 55%;
+    width: 60%;
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
     box-shadow: rgb(240, 243, 243) 1px 1px 2px 2px;
 }
 .educate_tag:hover{
-    width: 57%;
+    width:62%;
     transition: width 1s;
 }
 .educate_tag img{
@@ -58,15 +58,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: auto 15px;
+    margin: auto 40px;
 }
 
 @media only screen and (max-width: 1200px){
     .educate_tag{
-        width: 85%;
+        width: 70%;
     }
     .educate_tag:hover{
-        width: 90%;
+        width: 73%;
         transition: width .7s;
     }
 }
@@ -99,6 +99,10 @@
     .educate_tag:hover{
         width: 72%;
         transition: width 1s;
+    }
+    .img_ex{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width: 700px) { 
