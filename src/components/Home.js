@@ -72,6 +72,7 @@ export default function Home() {
                     </div>
                     <div className="skill_det">
                     <h1>Frontend Web Development</h1>
+                    <hr className="hrdet"/>
                     <p>Languages: HTML/CSS, JavaScript</p>
                     <p>Framework: ReactJS</p>
                     </div>
@@ -82,9 +83,10 @@ export default function Home() {
                     </div>
                     <div className="skill_det">
                     <h1>Competitive Programming</h1>
+                    <hr className="hrdet"/>
                     <p>Languages: C++ , C</p>
-                    <p><span>Codechef</span> 1711(max. rating)</p>
-                    <p><span>Codeforces</span> 1103(max. rating)</p>
+                    <p><span>1711 </span>(max. rating) on Codechef</p>
+                    <p><span>1103 </span>(max. rating) on Codeforces</p>
                     </div>
                </div>
                <div className="skill_tag">
@@ -93,6 +95,7 @@ export default function Home() {
                     </div>
                     <div className="skill_det">
                     <h1>Other Developer Tools</h1>
+                    <hr className="hrdet"/>
                     <p>VS Code, GitHub</p>
                     </div>
                </div>

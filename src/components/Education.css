@@ -42,11 +42,10 @@
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
-    box-shadow: rgb(240, 243, 243) 1px 1px 2px 2px;
+    
 }
 .educate_tag:hover{
-    width: 53%;
-    transition: width 1s;
+    box-shadow: rgb(211, 230, 233) 0.7px 0.7px 1.2px 1.2px;
 }
 .educate_tag img{
     width: 150px;
@@ -67,7 +66,7 @@
 }
 .lang_box{
     display: grid;
-    grid-template-columns: repeat(3,170px);
+    grid-template-columns: repeat(4,170px);
     margin: 30px auto;
     grid-row-gap: 30px;
 }
@@ -81,10 +80,6 @@
 @media only screen and (max-width: 1200px){
     .educate_tag{
         width: 70%;
-    }
-    .educate_tag:hover{
-        width: 74%;
-        transition: width .7s;
     }
 }
 
@@ -113,9 +108,12 @@
     .educate_tag{
         width: 70%;
     }
-    .educate_tag:hover{
-        width: 72%;
-        transition: width 1s;
+    
+}
+
+@media only screen and (max-width: 750px) { 
+    .lang_box{
+        grid-template-columns: repeat(3,170px);
     }
 }
 @media only screen and (max-width: 700px) { 
@@ -140,10 +138,7 @@
         width: 73%;
         margin: 15px auto;
     }
-    .educate_tag:hover{
-        width: 76%;
-        transition: width 0.6s;
-    }
+    
     .img_ed{
         margin-left: 0px;
     }

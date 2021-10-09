@@ -10,6 +10,8 @@ import reactjs_logo from './Img/reactjslogo.png'
 import js_logo from './Img/jslogo.png'
 import c_logo from './Img/clogo.png'
 import cpp_logo from './Img/cpplogo.png'
+import btstrap from './Img/btstrap.png'
+import gitbash from './Img/gitbash.png'
 
 //import Perspective from './Perspective'
 export default function Education() {
@@ -22,7 +24,7 @@ export default function Education() {
                 </div>
                 <div className="right_e">
                     <h1>Education</h1>
-                    <p>Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
+                    <p>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
                     </p>
                     <p>– Malcolm X</p>
                 </div>
@@ -56,6 +58,9 @@ export default function Education() {
                     <img src={reactjs_logo} alt="" srcset="" />
                     <img src={c_logo} alt="" srcset="" />
                     <img src={cpp_logo} alt="" srcset="" />
+                    <img src={gitbash} alt="" srcset="" />
+                    <img src={btstrap} alt="" srcset="" />
+                    
                 </div>
             </div>
             <br/>

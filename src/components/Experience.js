@@ -17,7 +17,8 @@ export default function Experience() {
                 </div>
                 <div className="right_ex">
                     <h1>Experience</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ex quia veniam quasi vel rerum.</p>
+                    <p>“Do you know the difference between education and experience? Education is when you read the fine print; experience is what you get when you don't. ”</p>
+                    <p>― Pete Seeger</p>
                 </div>
             </div>
             <h1 className="exp_h1">Work Experience</h1>

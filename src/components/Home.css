@@ -133,11 +133,16 @@
   height: 110px;
 }
 .skill_det span{
-  color: rgb(43, 9, 9);
+  color: rgb(54, 8, 8);
   font-weight: bold;
+  font-size: 1.5rem;
 }
 .skills hr{
   background-color: black;
+}
+.hrdet{
+  width: 70%;
+
 }
 /* Typing Animation */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
