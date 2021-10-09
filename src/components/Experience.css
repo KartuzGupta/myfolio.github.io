@@ -142,6 +142,9 @@
         padding-top: 0px;
         margin-top: -20px;
     }
+    .right_ex p{
+        width: 95%;
+    }
     
 }
 
@@ -154,10 +157,10 @@
     .right_ex{
         margin-top: -10px;
     }
-    
     .front_ex{
         height: 650px;
     }
+    
     
     
 }

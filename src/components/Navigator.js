@@ -15,10 +15,13 @@ export default function Navigator() {
               <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Education">Education</a>
+              <a className="nav-link" href="/Skills">Skills</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/Experience">Experience</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Education">Education</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">Projects</a>

@@ -1,4 +1,5 @@
- .front{
+/* .lang_edu ,.lang_box has its css in Education.css*/
+.front{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,9 +56,18 @@
 }
 .para1{
   margin: auto; 
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   width: 60%;
   text-align: center;
+  font-size: 1.2rem;
+  color: rgb(70, 68, 68);
+}
+.para2{
+  font-size: 1.1rem;
+  text-align: center;
+  width: 60%;
+  margin: auto;
 }
 
 .point_det{
@@ -93,7 +103,7 @@
   padding-top: 40px;
 }
 .skills h1{
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .skill_tag{
   display: flex;
@@ -295,7 +305,9 @@
   .skill_tag p{
     font-size: 1rem;
   }
-  
+  .para2{
+    width: 85%;
+  }
 }
 @media only screen and (max-width: 500px) { 
     .left{
@@ -350,6 +362,7 @@
       margin-left: 0px;
       width: 100%;
     }
+   
 }
 @media only screen and (max-width: 400px) {
   .left img{
@@ -361,5 +374,11 @@
   }
   .skill_det{
     margin-left: 20px;
+  }
+  .para1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    font-size: 1rem;
   }
 }

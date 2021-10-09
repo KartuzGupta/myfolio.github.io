@@ -9,7 +9,14 @@ import email from './Img/email.png'
 import frontend from './Img/frontendlogo.png'
 import cp from './Img/cplogo.png'
 import devtool from './Img/devtool.png'
-
+import html_logo from './Img/htmllogo.png'
+import css_logo from './Img/csslogo.png'
+import reactjs_logo from './Img/reactjslogo.png'
+import js_logo from './Img/jslogo.png'
+import c_logo from './Img/clogo.png'
+import cpp_logo from './Img/cpplogo.png'
+import btstrap from './Img/btstrap.png'
+import gitbash from './Img/gitbash.png'
 
 export default function Home() {
     return (
@@ -41,7 +48,12 @@ export default function Home() {
                 <hr className="hrhome"/>
                 <div className="para">
                     <div className="para1">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum esse possimus incidunt, quibusdam fugit necessitatibus qui magni quae enim dicta. Blanditiis repellendus rem in tempora, obcaecati est ut ratione ipsam possimus autem, omnis maxime cumque.
+                        Quick Learner | Ethical | Ambitious
+                    </div>
+                    <div className="para2">
+                        An Undergrad from Indian Institute of Teachnology , Patna. A highly motivated and ambitious person always ready to try out new things.
+                        A flexible individual with an ability to adapt to changes. A curiosity to know everything. Trying to bring out the best version of myself.
+                        Ready to deliver.
                     </div>
                     <div className="point_det">
                             <div className="ico">
@@ -99,6 +111,20 @@ export default function Home() {
                     <p>VS Code, GitHub</p>
                     </div>
                </div>
+               <div className="lang_edu">
+                <h1>Familiar with..</h1>
+                <div className="lang_box">
+                    <img src={html_logo} alt="" srcset="" />
+                    <img src={css_logo} alt="" srcset="" />
+                    <img src={js_logo} alt="" srcset="" />
+                    <img src={reactjs_logo} alt="" srcset="" />
+                    <img src={c_logo} alt="" srcset="" />
+                    <img src={cpp_logo} alt="" srcset="" />
+                    <img src={gitbash} alt="" srcset="" />
+                    <img src={btstrap} alt="" srcset="" />
+                    
+                </div>
+            </div>
             </section>
         </div>
     )
