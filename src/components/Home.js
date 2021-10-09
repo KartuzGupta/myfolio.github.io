@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <section className="abt_me">
                 <h1>About Me</h1>
-                <hr className="hrhome"/>
+                <hr className="hrhome" />
                 <div className="para">
                     <div className="para1">
                         Quick Learner | Ethical | Ambitious

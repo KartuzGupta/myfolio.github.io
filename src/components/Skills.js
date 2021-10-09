@@ -11,18 +11,19 @@ import cpp_logo from './Img/cpplogo.png'
 import btstrap from './Img/btstrap.png'
 import gitbash from './Img/gitbash.png'
 import skill from './Img/skills1.png'
+import skill_style from './Skills.css'
 export default function Skills() {
     return (
         <div>
-            <div className="front_e">
-                <div className="left_e">
+            <div className="front_skill">
+                <div className="skill_lef" style={skill_style}>
                     <img src={skill} alt="" srcset="" />
                 </div>
-                <div className="right_e">
-                    <h1>Education</h1>
-                    <p>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
+                <div className="skill_rig">
+                    <h1>Skills</h1>
+                    <p>"Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft."
                     </p>
-                    <p>– Malcolm X</p>
+                    <p>– Will Smith</p>
                 </div>
             </div>
             <section className="skills">
@@ -71,7 +72,6 @@ export default function Skills() {
                     <img src={cpp_logo} alt="" srcset="" />
                     <img src={gitbash} alt="" srcset="" />
                     <img src={btstrap} alt="" srcset="" />
-                    
                 </div>
             </div>
             </section>
