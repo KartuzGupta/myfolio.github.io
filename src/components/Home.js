@@ -21,6 +21,9 @@ import gitbash from './Img/gitbash.png'
 export default function Home() {
     return (
         <div style={home_style}>
+            <div className="loc">
+                <p>Home</p>
+            </div>
             <div className="front">
                 <div className="left">
                     <img src={welocome} alt="Logo" srcset="" />

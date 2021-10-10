@@ -11,6 +11,9 @@ export default function Experience() {
     return (
         
             <div  style={exp_styles}>
+            <div className="loc">
+                <p>Experience</p>
+            </div>
             <div className="front_ex" >
                 <div className="left_ex">
                     <img src={exp} alt="" srcset="" />

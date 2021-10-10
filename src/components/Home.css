@@ -1,4 +1,20 @@
 /* .lang_edu ,.lang_box has its css in Education.css*/
+.loc{
+  top: 80px;
+  position: fixed;
+  z-index: 20;
+  
+  right: 0px;
+  border-bottom-left-radius: 10px;
+  background-color: #dffff8;
+}
+.loc p{
+  display: inline-block;
+  margin-bottom: 0px;
+  padding: 5px;
+  text-align: center;
+  color: #68837a ;
+}
 .front{
     display: flex;
     flex-direction: row;
@@ -109,7 +125,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start; 
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 30px; 
   border: solid rgb(181, 181, 187) 1px;
   border-radius: 10px;
@@ -149,10 +165,10 @@
 }
 .skills hr{
   background-color: black;
+  margin-bottom: 30px;
 }
 .hrdet{
   width: 70%;
-
 }
 /* Typing Animation */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
