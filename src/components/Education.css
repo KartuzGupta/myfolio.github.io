@@ -140,7 +140,9 @@
         width: 73%;
         margin: 15px auto;
     }
-    
+    .educate_tag img{
+        margin: 0px;
+    }
     .img_ed{
         margin-left: 0px;
     }
