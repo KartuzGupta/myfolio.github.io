@@ -30,7 +30,7 @@
     align-items: center;
 }
 .left img{
-    width: 720px;
+    width: 730px;
     height: 400px;
     position: relative;
     margin-top: 50px;
@@ -182,7 +182,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-height: 100vh;
+  /*max-height: 100vh;*/
   width: 100%;
   flex-direction: column;
   background-color: white;
@@ -276,7 +276,7 @@
         flex-direction: column;
     }
     .left{
-        height: 50vh;
+        height: 70vh;
     }
     .right{
         height: 650px;
@@ -363,6 +363,7 @@
       }
       .right{
         height: 650px;
+        padding-top: 30px;
     }
     .point_det{
       grid-template-columns: repeat(1,auto);
