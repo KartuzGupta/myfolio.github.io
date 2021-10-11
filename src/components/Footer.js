@@ -35,7 +35,7 @@ export default function Footer() {
                         {/* <a href="https://codeforces.com/profile/aatma" ><img src={logo_codeforces} alt="" /></a>
                         <a href="https://www.codechef.com/users/aatma" ><img src={logo_codechef} alt="" /></a> */}
                         <a href="https://www.instagram.com/kartikay_gpt/" ><img src={logo_insta} alt="" /></a>
-                        <a href="https://www.instagram.com/kartikay_gpt/" ><img src={logo_twitter} alt="" /></a>
+                        <a href="https://twitter.com/aatma_0" ><img src={logo_twitter} alt="" /></a>
                     </div>
                     </div>  
                      
