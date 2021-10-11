@@ -58,7 +58,7 @@
 .abt_me{
   display: flex;
   flex-direction: column;
-  background-color: rgb(253 240 240);
+  background-color:#fafdfd;
 }
 .abt_me h1{
    font-size: 2rem;

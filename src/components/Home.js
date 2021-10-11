@@ -54,7 +54,7 @@ export default function Home() {
                         Quick Learner | Ethical | Ambitious
                     </div>
                     <div className="para2">
-                        An Undergrad from Indian Institute of Teachnology , Patna. A highly motivated and ambitious person always ready to try out new things.
+                        An Undergrad from Indian Institute of Technology , Patna. A highly motivated and ambitious person always ready to try out new things.
                         A flexible individual with an ability to adapt to changes. A curiosity to know everything. Trying to bring out the best version of myself.
                         Ready to deliver.
                     </div>
