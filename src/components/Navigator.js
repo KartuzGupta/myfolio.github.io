@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import navbar_nav_styles from './Navigator.css'
 import write from './Img/writeup.png'
 export default function Navigator() {
@@ -12,20 +13,20 @@ export default function Navigator() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent" style={navbar_nav_styles}>
           <ul className="navbar-nav mr-auto" >
             <li className="nav-item active">
-              <a className="nav-link" href="/">Home</a>
+              <Link to="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Skills">Skills</a>
+              <Link to="/Skills" className="nav-link" >Skills</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Experience">Experience</a>
+              <Link to="/Experience" className="nav-link" >Experience</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Education">Education</a>
+              <Link to="/Education" className="nav-link">Education</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="/">Projects</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

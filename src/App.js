@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -10,19 +10,22 @@ import Navigator from './components/Navigator';
 import Skills from './components/Skills';
 function App() {
   return (
+
     <div className="App">
       {/* <Navigation/> */}
-      <Navigator/>
       <Router>
+      <Navigator/>
+      <Switch>
         <Route exact path="/"  component={Home} />
         <Route exact path="/Education" component={Education}/>
         <Route exact path="/Experience" component={Experience}/>
         <Route exact path="/Skills" component={Skills}/>
-        
-      </Router>  
-      <Footer/>
+      </Switch>
+      </Router>
       <ScrollButton/>
+      <Footer/>
     </div>
+
   );
 }
 
