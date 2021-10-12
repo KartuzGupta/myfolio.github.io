@@ -36,12 +36,12 @@ export default function Home() {
                         <img src={profile} alt="" srcset="" />
                     </div>
                 <div className="wrapper">
-                    <div className="static-txt">I'm into</div>
+                    <div className="static-txt">I'm a</div>
                     <ul className="dynamic-txts">
-                    <li><span>Competitive Programming</span></li>
-                    <li><span>Frontend Web Development</span></li>
-                    <li><span>Open-Source Contribution</span></li>
-                    <li><span>Mechanical Engineering</span></li>
+                    <li><span>Competitive Programmer</span></li>
+                    <li><span>Frontend Web Developer</span></li>
+                    <li><span>Open-Source Contributor</span></li>
+                    <li><span>Mechanical Engineer</span></li>
                     </ul>
                 </div>
                 </div>
