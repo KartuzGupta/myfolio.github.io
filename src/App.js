@@ -8,11 +8,13 @@ import Experience from './components/Experience';
 import ScrollButton from './components/ScrollButton';
 import Navigator from './components/Navigator';
 import Skills from './components/Skills';
+import Animated from './components/Animated_bg';
 function App() {
   return (
 
     <div className="App">
       {/* <Navigation/> */}
+      <Animated/>
       <Router>
       <Navigator/>
       <Switch>

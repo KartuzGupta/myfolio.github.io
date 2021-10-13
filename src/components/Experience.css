@@ -28,7 +28,7 @@
     align-content: center;
 }
 .right_ex p{
-    
+    background-color: #ffffffc9;
     width: 70%;
     text-align: center;
 }
@@ -42,6 +42,7 @@
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
+    background-color: #ffffffc9;;
     
 }
 .educate_tag:hover{

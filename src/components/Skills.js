@@ -38,8 +38,8 @@ export default function Skills() {
                     <div className="skill_det">
                     <h1>Frontend Web Development</h1>
                     <hr className="hrdet"/>
-                    <p>Languages: HTML/CSS, JavaScript</p>
-                    <p>Framework: ReactJS</p>
+                    <p>Experienced with: HTML/CSS, JavaScript
+                    , ReactJS</p>
                     </div>
                </div>
                <div className="skill_tag">

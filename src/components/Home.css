@@ -1,4 +1,5 @@
 /* .lang_edu ,.lang_box has its css in Education.css*/
+
 .loc{
   top: 80px;
   position: fixed;
@@ -58,7 +59,7 @@
 .abt_me{
   display: flex;
   flex-direction: column;
-  background-color:#fafdfd;
+  background-color:#f8ffffa8;
 }
 .abt_me h1{
    font-size: 2rem;
@@ -134,12 +135,14 @@
   margin-right: auto;
   padding-top: 40px;
   padding-bottom: 30px;
+  background-color: #ffffffc9;
 }
 .img_skill{
   display: flex;
   justify-content: center;
   width: 35%;
   margin-left: 10px;
+  align-items: center;
 }
 .skill_tag h1{
   font-size: 1.5rem;
@@ -185,7 +188,7 @@
   /*max-height: 100vh;*/
   width: 100%;
   flex-direction: column;
-  background-color: white;
+  /* background-color: white; */
 }
 .wrapper{
   display: flex;
@@ -285,7 +288,7 @@
         margin-top: 100px;
     }
     .para1{
-      width: 75%;
+      width: 85%;
     }  
 }
 @media only screen and (max-width: 1000px) {

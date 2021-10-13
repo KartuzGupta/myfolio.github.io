@@ -1,6 +1,6 @@
 import React from 'react'
 import home_style from './Home.css'
-import welocome from './Img/welcome.png'
+import welocome from './Img/welcome_rb.png'
 import profile from './Img/profile.png'
 import home from './Img/home.png'
 import dob from './Img/dob.png'
@@ -17,10 +17,12 @@ import c_logo from './Img/clogo.png'
 import cpp_logo from './Img/cpplogo.png'
 import btstrap from './Img/btstrap.png'
 import gitbash from './Img/gitbash.png'
+import Animated from './Animated_bg'
 
 export default function Home() {
     return (
         <div style={home_style}>
+            <Animated />
             <div className="loc">
                 <p>Home</p>
             </div>
@@ -88,8 +90,8 @@ export default function Home() {
                     <div className="skill_det">
                     <h1>Frontend Web Development</h1>
                     <hr className="hrdet"/>
-                    <p>Languages: HTML/CSS, JavaScript</p>
-                    <p>Framework: ReactJS</p>
+                    <p>Experienced with: HTML/CSS, JavaScript,
+                     ReactJS</p>
                     </div>
                </div>
                <div className="skill_tag">
