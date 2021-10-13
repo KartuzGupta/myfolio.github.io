@@ -12,7 +12,13 @@ import btstrap from './Img/btstrap.png'
 import gitbash from './Img/gitbash.png'
 import skill from './Img/skills1.png'
 import skill_style from './Skills.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 export default function Skills() {
+    useEffect(() => {
+        Aos.init({duration: 800});
+    }, [])
     return (
         <div>
             <div className="loc">
@@ -22,7 +28,7 @@ export default function Skills() {
                 <div className="skill_lef" style={skill_style}>
                     <img src={skill} alt="" srcset="" />
                 </div>
-                <div className="skill_rig">
+                <div className="skill_rig" data-aos="fade-up">
                     <h1>Skills</h1>
                     <p>"Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft."
                     </p>
@@ -31,7 +37,7 @@ export default function Skills() {
             </div>
             <section className="skills">
                 
-                <div className="skill_tag">
+                <div className="skill_tag" data-aos="fade-up">
                     <div className="img_skill">
                     <img src={frontend} alt="" srcset="" />
                     </div>
@@ -42,7 +48,7 @@ export default function Skills() {
                     , ReactJS</p>
                     </div>
                </div>
-               <div className="skill_tag">
+               <div className="skill_tag" data-aos="fade-up">
                     <div className="img_skill">
                     <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -54,7 +60,7 @@ export default function Skills() {
                     <p><span>1103 </span>(max. rating) on Codeforces</p>
                     </div>
                </div>
-               <div className="skill_tag">
+               <div className="skill_tag" data-aos="fade-up">
                     <div className="img_skill">
                     <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -64,7 +70,7 @@ export default function Skills() {
                     <p>VS Code, GitHub</p>
                     </div>
                </div>
-               <div className="lang_edu">
+               <div className="lang_edu" data-aos="fade-up">
                 <h1>Familiar with..</h1>
                 <div className="lang_box">
                     <img src={html_logo} alt="" srcset="" />

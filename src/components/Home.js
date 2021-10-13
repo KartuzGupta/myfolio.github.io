@@ -18,8 +18,13 @@ import cpp_logo from './Img/cpplogo.png'
 import btstrap from './Img/btstrap.png'
 import gitbash from './Img/gitbash.png'
 import Animated from './Animated_bg'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 export default function Home() {
+    useEffect(() => {
+        Aos.init({duration: 1000});
+    }, [])
     return (
         <div style={home_style}>
             <Animated />
@@ -48,7 +53,7 @@ export default function Home() {
                 </div>
                 </div>
             </div>
-            <section className="abt_me">
+            <section className="abt_me" data-aos="fade-up">
                 <h1>About Me</h1>
                 <hr className="hrhome" />
                 <div className="para">
@@ -83,7 +88,7 @@ export default function Home() {
             <section className="skills">
                 <h1>Skills</h1>
                 <hr className="hrhome"/>
-                <div className="skill_tag">
+                <div className="skill_tag" data-aos="fade-out">
                     <div className="img_skill">
                     <img src={frontend} alt="" srcset="" />
                     </div>
@@ -94,7 +99,7 @@ export default function Home() {
                      ReactJS</p>
                     </div>
                </div>
-               <div className="skill_tag">
+               <div className="skill_tag" data-aos="fade-out">
                     <div className="img_skill">
                     <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -106,7 +111,7 @@ export default function Home() {
                     <p><span>1103 </span>(max. rating) on Codeforces</p>
                     </div>
                </div>
-               <div className="skill_tag">
+               <div className="skill_tag" data-aos="fade-out">
                     <div className="img_skill">
                     <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -116,7 +121,7 @@ export default function Home() {
                     <p>VS Code, GitHub</p>
                     </div>
                </div>
-               <div className="lang_edu">
+               <div className="lang_edu" data-aos="fade-up">
                 <h1>Familiar with..</h1>
                 <div className="lang_box">
                     <img src={html_logo} alt="" srcset="" />
@@ -127,7 +132,6 @@ export default function Home() {
                     <img src={cpp_logo} alt="" srcset="" />
                     <img src={gitbash} alt="" srcset="" />
                     <img src={btstrap} alt="" srcset="" />
-                    
                 </div>
             </div>
             </section>

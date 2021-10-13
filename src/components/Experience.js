@@ -6,10 +6,14 @@ import barberalogo from './Img/barberalogo.png'
 import infinito from './Img/infinito.png'
 import ecelllogo from './Img/ecelllogo.png'
 import njacklogo from './Img/njacklogo.jpg'
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 export default function Experience() {
+    useEffect(() => {
+        Aos.init({duration: 800});
+    }, [])
     return (
-        
             <div  style={exp_styles}>
             <div className="loc">
                 <p>Experience</p>
@@ -18,7 +22,7 @@ export default function Experience() {
                 <div className="left_ex">
                     <img src={exp} alt="" srcset="" />
                 </div>
-                <div className="right_ex">
+                <div className="right_ex" data-aos="fade-up">
                     <h1>Experience</h1>
                     <p>“Do you know the difference between education and experience? Education is when you read the fine print; experience is what you get when you don't. ”</p>
                     <p>― Pete Seeger</p>
@@ -26,7 +30,7 @@ export default function Experience() {
             </div>
             <h1 className="exp_h1">Work Experience</h1>
             <hr className="hrstyle" />
-            <div className="educate_tag">
+            <div className="educate_tag" data-aos="fade-up">
                 <div className="img_ex">
                 <img src={barberalogo} alt="" srcset="" />
                 </div>
@@ -34,19 +38,19 @@ export default function Experience() {
             </div>
             <h1 className="exp_h1">POR's</h1>
             <hr className="hrstyle" />
-            <div className="educate_tag">
+            <div className="educate_tag"  data-aos="fade-up">
                 <div className="img_ex">
                 <img src={infinito} alt="" srcset="" />
                 </div>
                 <Exp title='Infinito IIT Patna' position='Sub-Coord, Web and App Dev Committee' time='August 2021 - Present' role='Annual Sports Fest of IIT Patna'/>
             </div>
-            <div className="educate_tag">
+            <div className="educate_tag"  data-aos="fade-up">
                 <div className="img_ex">
                 <img src={ecelllogo} alt="" srcset="" />
                 </div>
                 <Exp title='E-Cell IIT Patna' position='Sub-Coord, Tech and Dev Committe' time='August 2021 - Present' role=''/>
             </div>
-            <div className="educate_tag">
+            <div className="educate_tag" data-aos="fade-up">
                 <div className="img_ex">
                 <img src={njacklogo} alt="" srcset="" />
                 </div>

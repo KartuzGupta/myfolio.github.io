@@ -9,6 +9,7 @@ import ScrollButton from './components/ScrollButton';
 import Navigator from './components/Navigator';
 import Skills from './components/Skills';
 import Animated from './components/Animated_bg';
+
 function App() {
   return (
 
@@ -25,6 +26,7 @@ function App() {
       </Switch>
       </Router>
       <ScrollButton/>
+     
       <Footer/>
     </div>
 
