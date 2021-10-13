@@ -6,6 +6,7 @@ import logo_codeforces from './Img/codeforces.png'
 import logo_linkedin from './Img/linkedin.png'
 import footer_style from './Footer.css'
 import logo_twitter from './Img/twitter.png'
+import logo_mail from './Img/mail.png'
 export default function Footer() {
     const hr_style={
         width: '50%',
@@ -36,6 +37,8 @@ export default function Footer() {
                         <a href="https://www.codechef.com/users/aatma" ><img src={logo_codechef} alt="" /></a> */}
                         <a href="https://www.instagram.com/kartikay_gpt/" ><img src={logo_insta} alt="" /></a>
                         <a href="https://twitter.com/aatma_0" ><img src={logo_twitter} alt="" /></a>
+                        <a href="mailto:kartikay.gupta2002@gmail.com" ><img src={logo_mail} alt="" /></a>
+                        
                     </div>
                     </div>  
                      
