@@ -9,7 +9,7 @@
 .stars {
 	z-index: -2;
 	background: white url('./Img/stars_bg.png') repeat top center;
-    opacity: 70%;
+    opacity: 100%;
 }
 
 .twinkling{
