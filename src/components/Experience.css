@@ -8,7 +8,7 @@
 }
 .left_ex img{
     width: 650px;
-    height: 500px;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -75,7 +75,7 @@
     }
     .left_ex img{
         width: 70%;
-        height: 570px;
+        height: auto;
     }
     .left_ex{
         width: 100%;
@@ -114,7 +114,7 @@
     }
     .left_ex img{
         width: 90%;
-        height: 450px;
+        height: auto;
     }
     .educate_tag{
         flex-direction: column;
@@ -131,7 +131,8 @@
 @media only screen and (max-width: 600px) { 
     
     .left_ex img{
-        height: 400px;
+        height: auto;
+        width: 100%;
     }
 
     
@@ -139,7 +140,8 @@
 @media only screen and (max-width: 500px) { 
     
     .left_ex img{
-        height: 70%;
+        height: auto;
+        width: 100%;
     }
     .right_ex{
         padding-top: 0px;
@@ -154,8 +156,7 @@
 @media only screen and (max-width: 415px) { 
     
     .left_ex img{
-        height: 65%;
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .right_ex{
         margin-top: -10px;

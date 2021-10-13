@@ -8,7 +8,7 @@
 }
 .skill_lef img{
     width: 650px;
-    height: 400px;
+    height: auto;
     display: block;
     margin: auto;
 }
@@ -42,7 +42,7 @@
     }
     .skill_lef img{
         width: 650px;
-        height: 400px;
+        height: auto;
         margin: 0px;
         margin-top: 50px;
     }
@@ -79,8 +79,8 @@
     }
     
     .skill_lef img{
-        width: 500px;
-        height: 300px;
+        width: 100%;
+        height: 100%;
         margin-top: 100px;
     }
     
@@ -94,7 +94,7 @@
 @media only screen and (max-width: 500px) { 
     .skill_lef img{
         width: 100%;
-        height: 300px;
+        height: 100%;
     }
     .skill_rig p{
         width: 90%;
@@ -103,9 +103,10 @@
 
 @media only screen and (max-width: 415px) { 
     .skill_lef img{
-        height: 70%;
+        height: auto;
         margin-top: 50px;
         width: 100%;
+        padding-bottom: 30px;
     }
     .skill_rig{
         margin-top: 0px;

@@ -32,7 +32,7 @@
 }
 .left img{
     width: 730px;
-    height: 400px;
+    height: auto;
     position: relative;
     margin-top: 50px;
 }
@@ -313,7 +313,7 @@
 @media only screen and (max-width: 700px) {
   .left img{
     width: 80%;
-    height: 300px;
+    height: auto;
   }
   .skill_tag{
     width: 450px;
@@ -333,7 +333,7 @@
         height: 60vh;
     }
     .left img{
-      height: 250px;
+     height: auto;
       width: 100%;
     }
     .wrapper{
