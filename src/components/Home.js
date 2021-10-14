@@ -72,7 +72,7 @@ export default function Home() {
                             </div>
                             <div className="ico">    
                             <img src={email} alt="" srcset="" />
-                            <p>kartikay.gupta2002@gmail.com</p>
+                            <p><a href="mailto:kartikay.gupta2002@gmail.com" style={{color:'black'}}>kartikay.gupta2002@gmail.com</a></p>
                             </div>
                             <div className="ico">
                             <img src={phone} alt="" srcset="" />
