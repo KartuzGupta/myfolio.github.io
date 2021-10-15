@@ -2,6 +2,10 @@
 *{
     font-family: 'Poppins';
 }
+
+.bg-light{
+    opacity: 0.95;
+}
 .navbar-nav{
     margin-left: 53%;
 }
@@ -12,7 +16,6 @@
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(225, 226, 226) 0.5px 0.5px 1px 1px;
     border-radius: 15px;
-    
 }
 .nav-item a{
     color: rgb(54, 54, 54);
