@@ -1,11 +1,11 @@
 import React from 'react'
 import exp_styles from './Experience.css'
-import Exp from './Exp'
-import exp from './Img/exp_rb.png'
-import barberalogo from './Img/barberalogo.png'
-import infinito from './Img/infinito.png'
-import ecelllogo from './Img/ecelllogo.png'
-import njacklogo from './Img/njacklogo.jpg'
+import Exp from '../components/Exp'
+import exp from '../Img/exp_rb.png'
+import barberalogo from '../Img/barberalogo.png'
+import infinito from '../Img/infinito.png'
+import ecelllogo from '../Img/ecelllogo.png'
+import njacklogo from '../Img/njacklogo.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";

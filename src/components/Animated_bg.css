@@ -8,13 +8,13 @@
 
 .stars {
 	z-index: -2;
-	background: white url('./Img/stars_bg1.png') repeat top center;
+	background: white url('../Img/stars_bg1.png') repeat top center;
     opacity: 0.6;
 }
 
 .twinkling{
 	z-index: -1;
-	background:transparent url('./Img/twinkle_bg3.png') repeat top center;
+	background:transparent url('../Img/twinkle_bg3.png') repeat top center;
 	animation: move-twink-back 200s linear infinite;
 }
 

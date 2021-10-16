@@ -1,12 +1,12 @@
 import React from 'react'
-import logo_insta from './Img/insta.png'
-import logo_git from './Img/GitHub-Mark.png'
-import logo_codechef from './Img/codechef.png'
-import logo_codeforces from './Img/codeforces.png'
-import logo_linkedin from './Img/linkedin.png'
+import logo_insta from '../Img/insta.png'
+import logo_git from '../Img/GitHub-Mark.png'
+import logo_codechef from '../Img/codechef.png'
+import logo_codeforces from '../Img/codeforces.png'
+import logo_linkedin from '../Img/linkedin.png'
 import footer_style from './Footer.css'
-import logo_twitter from './Img/twitter.png'
-import logo_mail from './Img/mail.png'
+import logo_twitter from '../Img/twitter.png'
+import logo_mail from '../Img/mail.png'
 export default function Footer() {
     const hr_style={
         width: '50%',

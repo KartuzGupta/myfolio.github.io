@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import navbar_nav_styles from './Navigator.css'
-import write from './Img/writeup.png'
+import write from '../Img/writeup.png'
 export default function Navigator() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:'fixed', width:'100%', padding:'10px 10px', zIndex:'3'}} >

@@ -1,9 +1,9 @@
 import React from 'react'
-import education from './Img/education_rb.png'
+import education from '../Img/education_rb.png'
 import education_styles from './Education.css'
-import Edu from './Edu'
-import drvsec_logo from './Img/drvseclogo.png'
-import iitp_logo from './Img/iitplogo.png'
+import Edu from '../components/Edu'
+import drvsec_logo from '../Img/drvseclogo.png'
+import iitp_logo from '../Img/iitplogo.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";

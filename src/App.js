@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
-import Home from './components/Home';
-import Education from './components/Education';
-import Experience from './components/Experience';
+import Home from './pages/Home';
+import Education from './pages/Education';
+import Experience from './pages/Experience';
 import ScrollButton from './components/ScrollButton';
 import Navigator from './components/Navigator';
-import Skills from './components/Skills';
+import Skills from './pages/Skills';
 import Animated from './components/Animated_bg';
 
 function App() {
