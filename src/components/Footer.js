@@ -23,21 +23,19 @@ export default function Footer() {
                     <h1>CP Platforms</h1>
                     <hr style={hr_style}/>
                     <div className="icon_box cp">
-                        <a href="https://codeforces.com/profile/aatma" ><img src={logo_codeforces} alt="" /></a>
-                        <a href="https://www.codechef.com/users/aatma" ><img src={logo_codechef} alt="" /></a> 
+                        <a href="https://codeforces.com/profile/aatma" target="_blank"><img src={logo_codeforces} alt="" /></a>
+                        <a href="https://www.codechef.com/users/aatma" target="_blank"><img src={logo_codechef} alt="" /></a> 
                     </div>
                     </div>
                     <div className="box_reach">
                     <h1>Stay in Touch</h1>
                     <hr style={hr_style} />
                     <div className="icon_box social" >
-                        <a href="https://github.com/KartuzGupta"><img src={logo_git} alt="" /></a>
-                        <a href="https://www.linkedin.com/in/kartikay-gupta-a21200206/" ><img src={logo_linkedin } alt=""/></a>
-                        {/* <a href="https://codeforces.com/profile/aatma" ><img src={logo_codeforces} alt="" /></a>
-                        <a href="https://www.codechef.com/users/aatma" ><img src={logo_codechef} alt="" /></a> */}
-                        <a href="https://www.instagram.com/kartikay_gpt/" ><img src={logo_insta} alt="" /></a>
-                        <a href="https://twitter.com/aatma_0" ><img src={logo_twitter} alt="" /></a>
-                        <a href="mailto:kartikay.gupta2002@gmail.com" ><img src={logo_mail} alt="" /></a>
+                        <a href="https://github.com/KartuzGupta" target="_blank"><img src={logo_git} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/kartikay-gupta-a21200206/" target="_blank"><img src={logo_linkedin } alt=""/></a>
+                        <a href="https://www.instagram.com/kartikay_gpt/" target="_blank"><img src={logo_insta} alt="" /></a>
+                        <a href="https://twitter.com/aatma_0" target="_blank"><img src={logo_twitter} alt="" /></a>
+                        <a href="mailto:kartikay.gupta2002@gmail.com" target="_blank"><img src={logo_mail} alt="" /></a>
                         
                     </div>
                     </div>  
