@@ -121,17 +121,17 @@ export default function Home() {
                     <p>VS Code, GitHub</p>
                     </div>
                </div>
-               <div className="lang_edu" data-aos="fade-up">
+               <div className="lang_edu" >
                 <h1>Familiar with..</h1>
                 <div className="lang_box">
-                    <img src={html_logo} alt="" srcset="" />
-                    <img src={css_logo} alt="" srcset="" />
-                    <img src={js_logo} alt="" srcset="" />
-                    <img src={reactjs_logo} alt="" srcset="" />
-                    <img src={c_logo} alt="" srcset="" />
-                    <img src={cpp_logo} alt="" srcset="" />
-                    <img src={gitbash} alt="" srcset="" />
-                    <img src={btstrap} alt="" srcset="" />
+                    <img src={html_logo} alt="" srcset="" data-aos="zoom-in-down" />
+                    <img src={css_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={js_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={reactjs_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={c_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down"/>
                 </div>
             </div>
             </section>
