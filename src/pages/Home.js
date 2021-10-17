@@ -1,6 +1,6 @@
 import React from 'react'
 import home_style from './Home.css'
-import welocome from '../Img/welcome_rb.png'
+import welocome from '../Img/welcome.svg'
 import profile from '../Img/profile.png'
 import home from '../Img/home.png'
 import dob from '../Img/dob.png'

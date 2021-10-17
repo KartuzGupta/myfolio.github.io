@@ -1,5 +1,5 @@
 import React from 'react'
-import education from '../Img/education_rb.png'
+import education from '../Img/education.svg'
 import education_styles from './Education.css'
 import Edu from '../components/Edu'
 import drvsec_logo from '../Img/drvseclogo.png'

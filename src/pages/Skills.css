@@ -5,9 +5,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 70px;
 }
 .skill_lef img{
-    width: 650px;
+    width: 450px;
     height: auto;
     display: block;
     margin: auto;
@@ -61,12 +62,14 @@
 
 @media only screen and (max-width: 700px) { 
     .front_skill{
-        height: 500px;
+        height: 550px;
+        margin-bottom: 30px;
     }
     .skill_lef{
         height: 300px;
         margin-top: -70px;
         width: 100%;
+        margin-bottom: 50px;
     }
     .skill_rig{
         height: 100px;
@@ -85,12 +88,6 @@
     }
     
 }
-
-@media only screen and (max-width: 600px) { 
-       
-}
-
-
 @media only screen and (max-width: 500px) { 
     .skill_lef img{
         width: 100%;
@@ -98,6 +95,9 @@
     }
     .skill_rig p{
         width: 90%;
+    }
+    .front_skill{
+        height: 560px;
     }
 }
 

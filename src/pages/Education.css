@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 80px ;
 }
 .left_e img{
     width: 650px;
@@ -122,7 +123,7 @@
         height: 700px;
     }
     .left_e{
-        height: 61vh;
+        height: 470px;
         margin-top: -70px;
         width: 100%;
     }
@@ -130,6 +131,7 @@
         height: 100px;
         /* padding-top: 30px;
         margin-top: 100px; */
+        margin-top:160px;
     }
     .left_e img{
         width: 90%;
@@ -164,6 +166,13 @@
     .lang_box{
         grid-template-columns: repeat(2,150px);
     }
+    .left_e img{
+        height: 500px;
+    }
+    .right_e{
+        
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 500px) { 
@@ -174,7 +183,7 @@
     }
     .right_e{
         padding-top: 0px;
-        margin-top: -40px;
+        margin-top: 60px;
     }
     .right_e p{
         width: 90%;
@@ -189,7 +198,7 @@
         margin-top: 80px;
     }
     .right_e{
-        margin-top: -10px;
+        margin-top: 10px;
     }
     
     .front_e{

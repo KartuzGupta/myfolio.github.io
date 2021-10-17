@@ -10,7 +10,7 @@ import c_logo from '../Img/clogo.png'
 import cpp_logo from '../Img/cpplogo.png'
 import btstrap from '../Img/btstrap.png'
 import gitbash from '../Img/gitbash.png'
-import skill from '../Img/skills1.png'
+import skill from '../Img/skills1.svg'
 import skill_style from './Skills.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
