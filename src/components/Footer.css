@@ -7,18 +7,26 @@
     height: 170px;
     align-items: center;
 }
+.box_reach{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .icon_box img{
     height: 60px;
     width: 60px;
     border-radius: 60px;
     margin:10px 10px;
 }
-.icon_box{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    height: 75px;
-    align-items: center;
+.social{
+    display:grid;
+    grid-template-columns: repeat(5, 80px);
+    height: 80px;
+}
+.cp{
+    display: grid;
+    grid-template-columns: repeat(2,80px);
+    height: 80px;
 }
 h1{
     text-align:center;
@@ -31,14 +39,12 @@ h1{
     height: 65px;
     transition: height 0.2s, width 0.2s;
 }
-.social{
-    
+/* .social{
     width: 100%;
 }
 .cp{
-   
     width: 100%;
-}
+} */
 .box_reach{
     width: 50%;
 }
@@ -50,6 +56,10 @@ h1{
     .box_reach{
         margin-top: 30px;
         margin-bottom: 20px;
+        width: 100%;
+    }
+    .social{
+        grid-template-columns: repeat(5,auto);
     }
     
 }
