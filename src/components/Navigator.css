@@ -7,7 +7,8 @@
     opacity: 0.95;
 }
 .navbar-nav{
-    margin-left: 53%;
+    margin-left: auto !important;
+    margin-right: 35px;
 }
 .nav-item{
     margin: auto 30px;
@@ -17,47 +18,12 @@
     color: rgb(54, 54, 54);
     font-size: 1rem;
 }
-.nav-item:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(225, 226, 226) 0.5px 0.5px 1px 1px;
-    border-radius: 15px;
-} 
+
 .navbar-brand img{
-    margin-left: 10px;
+    margin-left: 50px;
 }
-
-@media only screen and (max-width : 1450px) {
-    .navbar-nav{
-        margin-left: 50%;
-    }
-    
-}
-@media only screen and (max-width : 1300px) {
-    .navbar-nav{
-        margin-left: 45%;
-    }
-    
-}
-
-
-@media only screen and (max-width : 1200px) {
-    .navbar-nav{
-        margin-left: 40%;
-    }
-    
-}
-@media only screen and (max-width : 1100px) {
-    .navbar-nav{
-        margin-left: 35%;
-    }
-    
-}
-
-
 @media only screen and (max-width:991px) {
-    .navbar-nav{
-        margin-left: 5px;
-    }
+   
     .nav-item{
         margin-left: 0px;
     }
@@ -67,11 +33,6 @@
     }
     .navbar-brand img{
         margin-left: 10px;
-    }
-    .nav-item:hover{
-        background-color: transparent;
-        box-shadow: transparent 0px 0px 0px 0px;
-        border-radius: 0px;
     }
 }
 
