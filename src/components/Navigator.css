@@ -12,18 +12,20 @@
 .nav-item{
     margin: auto 30px;
 }
-.nav-item:hover{
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(225, 226, 226) 0.5px 0.5px 1px 1px;
-    border-radius: 15px;
-}
+
 .nav-item a{
     color: rgb(54, 54, 54);
     font-size: 1rem;
 }
+.nav-item:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(225, 226, 226) 0.5px 0.5px 1px 1px;
+    border-radius: 15px;
+} 
 .navbar-brand img{
     margin-left: 10px;
 }
+
 @media only screen and (max-width : 1450px) {
     .navbar-nav{
         margin-left: 50%;
@@ -65,6 +67,11 @@
     }
     .navbar-brand img{
         margin-left: 10px;
+    }
+    .nav-item:hover{
+        background-color: none;
+        box-shadow: none;
+        border-radius: none;
     }
 }
 

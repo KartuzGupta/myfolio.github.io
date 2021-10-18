@@ -15,9 +15,9 @@ export default function Education() {
     }, [])
     return (
         <div style={education_styles}>
-            <div className="loc">
+            {/* <div className="loc">
                 <p>Education</p>
-            </div>
+            </div> */}
             <div className="front_e">
                 <div className="left_e">
                     <img src={education} alt="" srcset="" />

@@ -21,9 +21,9 @@ export default function Skills() {
     }, [])
     return (
         <div>
-            <div className="loc">
+            {/* <div className="loc">
                 <p>Skills</p>
-            </div>
+            </div> */}
             <div className="front_skill">
                 <div className="skill_lef" style={skill_style}>
                     <img src={skill} alt="" srcset="" />

@@ -28,9 +28,9 @@ export default function Home() {
     return (
         <div style={home_style}>
             <Animated />
-            <div className="loc">
+            {/* <div className="loc">
                 <p>Home</p>
-            </div>
+            </div> */}
             <div className="front">
                 <div className="left">
                     <img src={welocome} alt="Logo" srcset="" />
