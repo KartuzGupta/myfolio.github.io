@@ -9,16 +9,16 @@ import email from '../Img/email.png'
 import frontend from '../Img/frontendlogo.png'
 import cp from '../Img/cplogo.png'
 import devtool from '../Img/devtool.png'
-import html_logo from '../Img/htmllogo.png'
+/*import html_logo from '../Img/htmllogo.png'
 import css_logo from '../Img/csslogo.png'
 import reactjs_logo from '../Img/reactjslogo.png'
 import js_logo from '../Img/jslogo.png'
 import c_logo from '../Img/clogo.png'
 import cpp_logo from '../Img/cpplogo.png'
 import btstrap from '../Img/btstrap.png'
-import gitbash from '../Img/gitbash.png'
+import gitbash from '../Img/gitbash.png'*/
 import Animated from '../components/Animated_bg'
-import Counter_up from '../components/Counter_up'
+import Counterup from '../components/Counter_up'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -108,8 +108,8 @@ export default function Home() {
                     <h1>Competitive Programming</h1>
                     <hr className="hrdet"/>
                     <p>Languages: C++ , C</p>
-                    <Counter_up end="1711" /><p>(max. rating) on Codechef</p>
-                    <Counter_up end="1103" /><p>(max. rating) on Codeforces</p>
+                    <Counterup end="1711" /><p>(max. rating) on Codechef</p>
+                    <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
                     </div>
                </div>
                <div className="skill_tag" data-aos="fade-out">
