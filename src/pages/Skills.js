@@ -12,6 +12,7 @@ import btstrap from '../Img/btstrap.png'
 import gitbash from '../Img/gitbash.png'
 import skill from '../Img/skills1.svg'
 import skill_style from './Skills.css'
+import Counter_up from '../components/Counter_up'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -56,8 +57,8 @@ export default function Skills() {
                     <h1>Competitive Programming</h1>
                     <hr className="hrdet"/>
                     <p>Languages: C++ , C</p>
-                    <p><span>1711 </span>(max. rating) on Codechef</p>
-                    <p><span>1103 </span>(max. rating) on Codeforces</p>
+                    <Counter_up end="1711" /><p>(max. rating) on Codechef</p>
+                    <Counter_up end="1103" /><p>(max. rating) on Codeforces</p>
                     </div>
                </div>
                <div className="skill_tag" data-aos="fade-up">
