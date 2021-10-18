@@ -69,9 +69,9 @@
         margin-left: 10px;
     }
     .nav-item:hover{
-        background-color: none;
-        box-shadow: none;
-        border-radius: none;
+        background-color: transparent;
+        box-shadow: transparent 0px 0px 0px 0px;
+        border-radius: 0px;
     }
 }
 

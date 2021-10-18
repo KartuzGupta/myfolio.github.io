@@ -19,11 +19,10 @@ function App() {
       <Router>
       <Navigator/>
       <Switch>
-        
+        <Route  path="/" component={Home} />
         <Route  path="/Education" component={Education}/>
         <Route  path="/Experience" component={Experience}/>
         <Route  path="/Skills" component={Skills}/>
-        <Route  exact={true} path="/" component={Home} />
       </Switch>
       </Router>
       <ScrollButton/>
