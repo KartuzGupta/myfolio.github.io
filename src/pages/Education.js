@@ -33,7 +33,7 @@ export default function Education() {
                 <div className="img_ed">
                 <img src={iitp_logo} alt="" srcset="" />
                 </div>
-                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='9.39 CPI in 1st Year'/>
+                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='8.39 CPI in 1st Year'/>
             </div>
             <div className="educate_tag"  data-aos="fade-up">
                 <div className="img_ed">
