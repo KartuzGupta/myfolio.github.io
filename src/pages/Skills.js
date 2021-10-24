@@ -29,7 +29,7 @@ export default function Skills() {
                 <div className="skill_lef" style={skill_style}>
                     <img src={skill} alt="" srcset="" />
                 </div>
-                <div className="skill_rig" data-aos="fade-up">
+                <div className="skill_rig" data-aos="fade-up" data-aos-once="true">
                     <h1>Skills</h1>
                     <p>"Talent you have naturally. Skill is only developed by hours and hours and hours of beating on your craft."
                     </p>
@@ -38,7 +38,7 @@ export default function Skills() {
             </div>
             <section className="skills">
                 
-                <div className="skill_tag" data-aos="fade-up">
+                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={frontend} alt="" srcset="" />
                     </div>
@@ -49,7 +49,7 @@ export default function Skills() {
                     , ReactJS</p>
                     </div>
                </div>
-               <div className="skill_tag" data-aos="fade-up">
+               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -61,7 +61,7 @@ export default function Skills() {
                     <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
                     </div>
                </div>
-               <div className="skill_tag" data-aos="fade-up">
+               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -74,14 +74,14 @@ export default function Skills() {
                <div className="lang_edu">
                 <h1>Familiar with..</h1>
                 <div className="lang_box">
-                    <img src={html_logo} alt="" srcset="" data-aos="zoom-in-down"/>
-                    <img src={css_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
-                    <img src={js_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
-                    <img src={reactjs_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
-                    <img src={c_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
-                    <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down"/>
-                    <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down"/>
-                    <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down"/>
+                    <img src={html_logo} alt="" srcset="" data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={css_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={js_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={reactjs_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={c_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                 </div>
             </div>
             </section>

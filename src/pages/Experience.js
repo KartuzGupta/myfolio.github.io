@@ -22,7 +22,7 @@ export default function Experience() {
                 <div className="left_ex">
                     <img src={exp} alt="" srcset="" />
                 </div>
-                <div className="right_ex" data-aos="fade-up">
+                <div className="right_ex" data-aos="fade-up" data-aos-once="true">
                     <h1>Experience</h1>
                     <p>“Do you know the difference between education and experience? Education is when you read the fine print; experience is what you get when you don't. ”</p>
                     <p>― Pete Seeger</p>
@@ -30,7 +30,7 @@ export default function Experience() {
             </div>
             <h1 className="exp_h1">Work Experience</h1>
             <hr className="hrstyle" />
-            <div className="educate_tag" data-aos="fade-up">
+            <div className="educate_tag" data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">
                 <img src={barberalogo} alt="" srcset="" />
                 </div>
@@ -38,19 +38,19 @@ export default function Experience() {
             </div>
             <h1 className="exp_h1">POR's</h1>
             <hr className="hrstyle" />
-            <div className="educate_tag"  data-aos="fade-up">
+            <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">
                 <img src={infinito} alt="" srcset="" />
                 </div>
                 <Exp title='Infinito IIT Patna' position='Sub-Coord, Web and App Dev Committee' time='August 2021 - Present' role='Annual Sports Fest of IIT Patna'/>
             </div>
-            <div className="educate_tag"  data-aos="fade-up">
+            <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">
                 <img src={ecelllogo} alt="" srcset="" />
                 </div>
                 <Exp title='E-Cell IIT Patna' position='Sub-Coord, Tech and Dev Committe' time='August 2021 - Present' role=''/>
             </div>
-            <div className="educate_tag" data-aos="fade-up">
+            <div className="educate_tag" data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">
                 <img src={njacklogo} alt="" srcset="" />
                 </div>
