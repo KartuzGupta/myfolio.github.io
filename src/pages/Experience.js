@@ -38,6 +38,12 @@ export default function Experience() {
             </div>
             <h1 className="exp_h1">POR's</h1>
             <hr className="hrstyle" />
+            <div className="educate_tag" data-aos="fade-up" data-aos-once="true">
+                <div className="img_ex">
+                <img src={njacklogo} alt="" srcset="" />
+                </div>
+                <Exp title='NJACK IIT Patna, OS and Dev' position='Sub-Coord, OS and Dev' time='October 2021 - Present' role=''/>
+            </div>
             <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">
                 <img src={infinito} alt="" srcset="" />
@@ -50,12 +56,7 @@ export default function Experience() {
                 </div>
                 <Exp title='E-Cell IIT Patna' position='Sub-Coord, Tech and Dev Committe' time='August 2021 - Present' role=''/>
             </div>
-            <div className="educate_tag" data-aos="fade-up" data-aos-once="true">
-                <div className="img_ex">
-                <img src={njacklogo} alt="" srcset="" />
-                </div>
-                <Exp title='NJACK IIT Patna, OS and Dev' position='Sub-Coord, OS and Dev' time='October 2021 - Present' role=''/>
-            </div>
+           
             <br/>
             <br/>
             </div>
