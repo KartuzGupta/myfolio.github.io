@@ -33,19 +33,19 @@ export default function Education() {
                 <div className="img_ed">
                 <img src={iitp_logo} alt="" srcset="" />
                 </div>
-                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='CPI: 8.39 (1st Year)'/>
+                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='CPI: 8.39 (1st Year)' link='https://www.iitp.ac.in/index.php/en-us/' />
             </div>
             <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
                 <div className="img_ed">
                 <img src={drvsec_logo} alt="" srcset="" />
                 </div>
-                <Edu title='Dr. Virendra Swarup Education Centre' time='2018-2020' degree='12th CISCE Board' marks='96.5% PCM'/>
+                <Edu title='Dr. Virendra Swarup Education Centre' time='2018-2020' degree='12th CISCE Board' marks='96.5% PCM' link='http://www.vsec.in/' />
             </div>
             <div className="educate_tag" data-aos="fade-up" data-aos-once="true"> 
                 <div className="img_ed">
                 <img src={drvsec_logo} alt="" srcset="" />
                 </div>
-                <Edu title='Dr. Virendra Swarup Education Centre' time='2016-2018' degree='10th CISCE Board' marks='95%'/>
+                <Edu title='Dr. Virendra Swarup Education Centre' time='2016-2018' degree='10th CISCE Board' marks='95%' link='http://www.vsec.in/' />
             </div>
             <br/>
         </div>

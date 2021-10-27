@@ -10,6 +10,14 @@
 .front_et p{
     margin-bottom: auto;
 }
+.front_et a{
+    text-decoration: none;
+    color: rgb(72, 87, 87);
+}
+.front_et a:hover{
+    color: black;
+    transition: color 0.5s;
+}
 @media only screen and (max-width : 600px) {
     .front_et h1{
         font-size: 1.2rem;

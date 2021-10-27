@@ -23,7 +23,7 @@ export default function Navigator() {
               <NavLink to="/Experience" className="nav-link" activeStyle={{color: '#065d66', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Experience</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/Education" className="nav-link" activeStyle={{color: '#065d66', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Education</NavLink>
+              <NavLink to="/Education" className="nav-link" activeStyle={{color: '#065d66', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Alma-Mater</NavLink>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="/">Projects</a>

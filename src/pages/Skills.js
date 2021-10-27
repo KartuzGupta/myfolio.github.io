@@ -46,7 +46,7 @@ export default function Skills() {
                     <h1>Frontend Web Development</h1>
                     <hr className="hrdet"/>
                     <p>Experienced with: HTML/CSS, JavaScript
-                    , ReactJS</p>
+                    , ReactJS, Bootstrap</p>
                     </div>
                </div>
                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">

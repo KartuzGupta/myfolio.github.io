@@ -35,7 +35,9 @@
     text-align: center;
     background-color: #ffffffc9;
 }
-
+.skill_det{
+    padding-right: 40px;
+}
 @media only screen and (max-width: 1050px){
     .front_skill{
         flex-direction: column;
@@ -86,6 +88,9 @@
         height: 100%;
         margin-top: 100px;
     }
+    .skill_det{
+        padding-right: 20px;
+    }
     
 }
 @media only screen and (max-width: 500px) { 
@@ -98,6 +103,9 @@
     }
     .front_skill{
         height: 560px;
+    }
+    .skill_det{
+        padding-right: 5px;
     }
 }
 

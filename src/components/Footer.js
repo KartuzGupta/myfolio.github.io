@@ -36,7 +36,6 @@ export default function Footer() {
                         <a href="https://www.instagram.com/kartikay_gpt/" target="_blank" rel="noreferrer"><img src={logo_insta} alt="" /></a>
                         <a href="https://twitter.com/aatma_0" target="_blank" rel="noreferrer"><img src={logo_twitter} alt="" /></a>
                         <a href="mailto:kartikay.gupta2002@gmail.com" target="_blank" rel="noreferrer"><img src={logo_mail} alt="" /></a>
-                        
                     </div>
                     </div>  
                      

@@ -48,7 +48,7 @@
 .educate_tag:hover{
     box-shadow: rgb(211, 230, 233) 0.7px 0.7px 1.2px 1.2px;
 }
-.educate_tag img{
+.img_ex img{
     width: 150px;
     height: 150px;
     border-radius: 200px;
@@ -60,7 +60,26 @@
     align-content: center;
     margin: auto 40px;
 }
-
+.exp_cont{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.expLinkBox img{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 40px;
+}
+.expLinkBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    border-radius: 40px;
+}
+.expLinkBox img:hover{
+    box-shadow: 1px 1px 2.5px 2.5px rgb(198, 239, 245);
+}
 @media only screen and (max-width: 1200px){
     .educate_tag{
         width: 70%;
@@ -121,11 +140,16 @@
         width: 73%;
         margin: 15px auto;
     }
-    .educate_tag img{
+    .img_ex img{
         margin: 0px;
     }
-   
-    
+    .exp_cont{
+        padding-right: 20px;
+    }
+    .expLinkBox{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media only screen and (max-width: 600px) { 
@@ -150,7 +174,9 @@
     .right_ex p{
         width: 95%;
     }
-    
+    .exp_cont{
+        padding-right: 0px;
+    }
 }
 
 @media only screen and (max-width: 415px) { 

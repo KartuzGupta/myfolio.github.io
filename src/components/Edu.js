@@ -10,6 +10,7 @@ export default function Edu(props) {
                 <li>{props.degree}</li>
                 <li>{props.marks}</li>
                 </ul>
+                <a href={props.link} target='_blank' rel="noreferrer">&gt; Learn More</a>
             </div>
         
     )
