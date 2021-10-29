@@ -13,7 +13,6 @@ export default function Exp(props) {
                 <p style={{color:'#464444'}}>{props.abt}</p>
                 <p>{props.time}</p>
                 <hr className="exp_hr" />
-                
             </div>
         
     )

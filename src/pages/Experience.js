@@ -39,6 +39,8 @@ export default function Experience() {
                 <div className="exp_cont">
                     <Exp title='Barbera' position='Front-End Web Developer' time='July 2021 - October 2021' abt='An IITP startup which provides online salon services' link='https://barbera.netlify.app/'/>
                     <li>Built the website using <strong>HTML, CSS and JavaScript</strong> with a team of developers.</li>
+                    <a className="workLink" href="https://github.com/VishalIITP/PKVBarbera" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
+                    <a className="workLink" href="https://drive.google.com/file/d/1ECj8SbMlAGg6K56RByTzwySNfptXvJcT/view?usp=sharing" target="_blank" rel="noreferrer" >&gt; Certificate</a>
                 </div>
                 {/* <div className="expLinkBox">
                     <a href="/"><img src={linkedin} alt="" srcset="" /></a>
@@ -53,12 +55,11 @@ export default function Experience() {
                 </div>
                 <div className="exp_cont">
                 <Exp title='NJACK IIT Patna' position='Sub-Coord, OS and Dev' time='October 2021 - Present' link='https://njack.iitp.ac.in/' />
-                <li>Worked as a <strong>Frontend Web Developer (used ReactJS)</strong> in <strong>CODEPEAK 2021</strong> website (An open source programme conducted by NJACK,IIT Patna in collaboration with Coding Club,IIT Guwahati).</li> 
+                <li>Contributed as a <strong>Frontend Web Developer (used ReactJS)</strong> to <strong>CODEPEAK 2021</strong> website (An open source programme conducted by NJACK,IIT Patna in collaboration with Coding Club,IIT Guwahati).</li> 
+                <a className="workLink" href="https://github.com/IITP-X-IITG/WoC-frontend" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
+                <a className="workLink" href="http://codepeak.live/" target="_blank" rel="noreferrer" >&gt; CODEPEAK website</a>
+                
                 </div>
-                {/* <div className="expLinkBox">
-                    <a href="/"><img src={linkedin} alt="" srcset="" /></a>
-                    <a href="/"><img src={gitLogo} alt="" srcset="" /></a>
-                </div> */}
             </div>
             <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">

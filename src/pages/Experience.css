@@ -65,20 +65,14 @@
     flex-direction: column;
     padding-right: 40px;
 }
-.expLinkBox img{
-    width: 40px;
-    height: 40px;
-    margin: 3px;
-    border-radius: 40px;
+.exp_cont a{
+    text-decoration: none;
+    color: rgb(72, 87, 87);
+    margin-top: 3px;
 }
-.expLinkBox{
-    display: flex;
-    flex-direction: column;
-    margin-top: 17px;
-    border-radius: 40px;
-}
-.expLinkBox img:hover{
-    box-shadow: 1px 1px 2.5px 2.5px rgb(198, 239, 245);
+.exp_cont a:hover{
+    color: rgb(4, 14, 32);
+    transition: color 0.5s;
 }
 @media only screen and (max-width: 1200px){
     .educate_tag{
