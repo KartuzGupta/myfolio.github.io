@@ -57,7 +57,7 @@ export default function Experience() {
                 <Exp title='NJACK IIT Patna' position='Sub-Coord, OS and Dev' time='October 2021 - Present' link='https://njack.iitp.ac.in/' />
                 <li>Contributed as a <strong>Frontend Web Developer (used ReactJS)</strong> to <strong>CODEPEAK 2021</strong> website (An open source programme conducted by NJACK,IIT Patna in collaboration with Coding Club,IIT Guwahati).</li> 
                 <a className="workLink" href="https://github.com/IITP-X-IITG/WoC-frontend" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
-                <a className="workLink" href="http://codepeak.live/" target="_blank" rel="noreferrer" >&gt; CODEPEAK website</a>
+                <a className="workLink" href="https://www.codepeak.tech/" target="_blank" rel="noreferrer" >&gt; CODEPEAK website</a>
                 
                 </div>
             </div>
