@@ -19,6 +19,7 @@ import btstrap from '../Img/btstrap.png'
 import gitbash from '../Img/gitbash.png'*/
 import Animated from '../components/Animated_bg'
 import Counterup from '../components/Counter_up'
+import Resume from '../Files/Resume.pdf'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -43,15 +44,20 @@ export default function Home() {
                     <div className="profile-pic">
                         <img src={profile} alt="" srcset="" />
                     </div>
-                <div className="wrapper">
-                    <div className="static-txt">I'm a</div>
-                    <ul className="dynamic-txts">
-                    <li><span>Competitive Programmer</span></li>
-                    <li><span>Frontend Web Developer</span></li>
-                    <li><span>Open-Source Contributor</span></li>
-                    <li><span>Mechanical Engineer</span></li>
-                    </ul>
-                </div>
+                    <div className="wrapper">
+                        <div className="static-txt">I'm a</div>
+                        <ul className="dynamic-txts">
+                        <li><span>Competitive Programmer</span></li>
+                        <li><span>Frontend Web Developer</span></li>
+                        <li><span>Open-Source Contributor</span></li>
+                        <li><span>Mechanical Engineer</span></li>
+                        </ul>
+                    </div>
+                    <div className="resume">
+                        <a href={Resume} target="_blank" rel="noreferrer" >
+                            <button class="custom-btn btn-15">View Resume</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <section className="abt_me" data-aos="fade-up" data-aos-once="true">
@@ -67,22 +73,22 @@ export default function Home() {
                         Ready to deliver.
                     </div>
                     <div className="point_det">
-                            <div className="ico">
+                        <div className="ico">
                             <img src={dob} alt="" srcset="" />
                             <p>11 / 12 / 2002</p>
                             </div>
-                            <div className="ico">    
+                        <div className="ico">    
                             <img src={email} alt="" srcset="" />
                             <p><a href="mailto:kartikay.gupta2002@gmail.com" style={{color:'black'}}>kartikay.gupta2002@gmail.com</a></p>
                             </div>
-                            <div className="ico">
+                        <div className="ico">
                             <img src={phone} alt="" srcset="" />
                             <p>7007222154</p>
                             </div>
-                            <div className="ico">
+                        <div className="ico">
                             <img src={home} alt="" srcset="" />
                             <p>Kanpur, UP</p>
-                            </div>
+                        </div>
                     </div>    
                 </div>
             </section>

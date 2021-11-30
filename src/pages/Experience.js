@@ -6,6 +6,7 @@ import barberalogo from '../Img/barberalogo.png'
 import infinito from '../Img/infinito.png'
 import ecelllogo from '../Img/ecelllogo.png'
 import njacklogo from '../Img/njacklogo.jpg'
+import BarberaInternship from '../Files/BarberaInternship.pdf'
 //import gitLogo from '../Img/GitHub-Mark.png'
 //import linkedin from '../Img/linkedin.png'
 import Aos from 'aos';
@@ -34,13 +35,13 @@ export default function Experience() {
             <hr className="hrstyle" />
             <div className="educate_tag" data-aos="fade-up" data-aos-once="true">
                 <div className="img_ex">
-                <img src={barberalogo} alt="" srcset="" />
+                <img src={barberalogo} alt="" srcset="" style={{borderRadius:'0px'}} />
                 </div>
                 <div className="exp_cont">
                     <Exp title='Barbera' position='Front-End Web Developer' time='July 2021 - October 2021' abt='An IITP startup which provides online salon services' link='https://barbera.netlify.app/'/>
                     <li>Built the website using <strong>HTML, CSS and JavaScript</strong> with a team of developers.</li>
                     <a className="workLink" href="https://github.com/VishalIITP/PKVBarbera" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
-                    <a className="workLink" href="https://drive.google.com/file/d/1ECj8SbMlAGg6K56RByTzwySNfptXvJcT/view?usp=sharing" target="_blank" rel="noreferrer" >&gt; Certificate</a>
+                    <a className="workLink" href={BarberaInternship} target="_blank" rel="noreferrer" >&gt; Certificate</a>
                 </div>
                 {/* <div className="expLinkBox">
                     <a href="/"><img src={linkedin} alt="" srcset="" /></a>
