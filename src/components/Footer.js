@@ -11,7 +11,7 @@ import {SiCodeforces , SiCodechef, SiTwitter, SiGmail} from "react-icons/si"
 import { VscGithubAlt } from "react-icons/vsc";
 import {GrLinkedinOption} from 'react-icons/gr'
 import {BsInstagram} from 'react-icons/bs'
-import Button from 'react-bootstrap/Button';
+//import Button from 'react-bootstrap/Button';
 export default function Footer() {
     const hr_style={
         width: '50%',
