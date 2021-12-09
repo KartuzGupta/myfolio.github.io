@@ -20,13 +20,15 @@
 }
 .social{
     display:grid;
-    grid-template-columns: repeat(5, 80px);
-    height: 80px;
+    grid-template-columns: repeat(5, 60px);
+    height: 60px;
+    grid-column-gap: 15px;
 }
 .cp{
     display: grid;
-    grid-template-columns: repeat(2,80px);
-    height: 80px;
+    grid-template-columns: repeat(2,60px);
+    height: 60px;
+    grid-column-gap: 15px;
 }
 h1{
     text-align:center;
@@ -39,14 +41,32 @@ h1{
     height: 65px;
     transition: height 0.2s, width 0.2s;
 }
-/* .social{
-    width: 100%;
-}
-.cp{
-    width: 100%;
-} */
+
 .box_reach{
     width: 50%;
+}
+.icon_circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.icon_box a{
+    color: #323044;
+    font-size: 40px;
+}
+.icon_circle svg{
+    align-content: center;
+}
+.social a{
+    font-size: 30px;
+}
+.icon_circle:hover svg{
+    color: rgb(134, 132, 128);
 }
 @media only screen and (max-width: 900px) {
     .reach{
@@ -59,7 +79,17 @@ h1{
         width: 100%;
     }
     .social{
-        grid-template-columns: repeat(5,auto);
+        grid-template-columns: repeat(5,50px);
+        height: 50px;
+        grid-column-gap: 15px;
+    }
+    .cp{
+        grid-template-columns: repeat(2,50px);
+        height: 50px;
+        grid-column-gap: 15px;
+    }
+    .cp a{
+        font-size: 30px;
     }
     
 }
