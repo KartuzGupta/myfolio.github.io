@@ -9,7 +9,7 @@ import ScrollButton from './components/ScrollButton';
 import Navigator from './components/Navigator';
 import Skills from './pages/Skills';
 import Animated from './components/Animated_bg';
-
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
 
@@ -17,6 +17,7 @@ function App() {
       {/* <Navigation/> */}
       <Animated/>
       <Router>
+        <ScrollToTop/>
       <Navigator/>
       <Switch>
         <Route exact path="/" component={Home} />
