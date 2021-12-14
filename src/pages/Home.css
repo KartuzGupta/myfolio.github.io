@@ -123,8 +123,8 @@
   font-size: 1.7rem;
 }
 .skill_tag{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
   justify-content: flex-start; 
   margin-top: 0px;
   margin-bottom: 30px; 
@@ -140,7 +140,7 @@
 .img_skill{
   display: flex;
   justify-content: center;
-  width: 35%;
+  width: 200px;
   margin-left: 10px;
   align-items: center;
 }
@@ -369,16 +369,20 @@
     height: auto;
   }
   .skill_tag{
-    width: 450px;
+    width: 500px;
   }
   .skill_tag h1{
     font-size: 1.1rem;
   }
   .skill_tag p{
     font-size: 1rem;
+    width: 90%;
   }
   .para2{
     width: 85%;
+  }
+  .img_skill{
+    width: 150px;
   }
 }
 @media only screen and (max-width: 500px) { 
@@ -425,6 +429,7 @@
       grid-template-columns: repeat(1,auto);
     }
     .skill_tag{
+      display: flex;
       flex-direction: column;
       width: 80%;
     }

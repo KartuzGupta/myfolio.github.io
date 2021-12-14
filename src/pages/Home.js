@@ -48,7 +48,7 @@ export default function Home() {
                         <div className="static-txt">I'm a</div>
                         <ul className="dynamic-txts">
                         <li><span>Competitive Programmer</span></li>
-                        <li><span>Frontend Web Developer</span></li>
+                        <li><span>Web Developer</span></li>
                         <li><span>Open-Source Contributor</span></li>
                         <li><span>Mechanical Engineer</span></li>
                         </ul>
@@ -100,10 +100,10 @@ export default function Home() {
                     <img src={frontend} alt="" srcset="" />
                     </div>
                     <div className="skill_det">
-                    <h1>Frontend Web Development</h1>
+                    <h1>Web Development</h1>
                     <hr className="hrdet"/>
                     <p>Experienced with: HTML/CSS, JavaScript,
-                     ReactJS</p>
+                     ReactJS, PHP, MySQL, Bootstrap</p>
                     </div>
                </div>
                <div className="skill_tag" data-aos="fade-out" data-aos-once="true">

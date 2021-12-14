@@ -43,10 +43,10 @@ export default function Skills() {
                     <img src={frontend} alt="" srcset="" />
                     </div>
                     <div className="skill_det">
-                    <h1>Frontend Web Development</h1>
+                    <h1>Web Development</h1>
                     <hr className="hrdet"/>
                     <p>Experienced with: HTML/CSS, JavaScript
-                    , ReactJS, Bootstrap</p>
+                    , ReactJS, PHP, MySQL, Bootstrap</p>
                     </div>
                </div>
                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
