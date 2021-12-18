@@ -56,10 +56,12 @@ export default function Experience() {
                 </div>
                 <div className="exp_cont">
                 <Exp title='NJACK IIT Patna' position='Sub-Coord, OS and Dev' time='October 2021 - Present' link='https://njack.iitp.ac.in/' />
-                <li>Contributed as a <strong>Frontend Web Developer (used ReactJS)</strong> to <strong>CODEPEAK 2021</strong> website (An open source programme conducted by NJACK,IIT Patna in collaboration with Coding Club,IIT Guwahati).</li> 
+                <li>Contributed as a <strong>Frontend Web Developer</strong> to <strong>CodePeak 2021</strong> website (An open source programme conducted by NJACK,IIT Patna in collaboration with Coding Club,IIT Guwahati).</li> 
+                <li>Tech used: <strong>ReactJS</strong></li>
                 <a className="workLink" href="https://github.com/IITP-X-IITG/WoC-frontend" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
-                <a className="workLink" href="https://www.codepeak.tech/" target="_blank" rel="noreferrer" >&gt; CODEPEAK website</a>
-                
+                <a className="workLink" href="https://www.codepeak.tech/" target="_blank" rel="noreferrer" >&gt; CodePeak website</a>
+                <li>Acted as a <strong>Mentor</strong> in CodePeak 2021.</li>
+                <a className="workLink" href="https://github.com/VishalIITP/CodepeakSuperDuper.git" target="_blank" rel="noreferrer" >&gt; Project Repo</a>
                 </div>
             </div>
             <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
@@ -68,7 +70,10 @@ export default function Experience() {
                 </div>
                 <div className="exp_cont">
                 <Exp title='Infinito IIT Patna' position='Sub-Coord, Web and App Dev Committee' time='August 2021 - Present' link='https://www.linkedin.com/company/infinito-iit-patna/'/>
-                <li>Annual Sports Fest of IIT Patna</li>
+                <li>Responsible for the development and maintenance of the Infinito2k21 Website.<br/>
+                    Worked on the<strong>Frontend</strong> as well as <strong>Backend</strong> of the Infinito2k21 website</li>
+                <li>Tech used: <strong>HTML/CSS/JavaScript (Frontend)</strong> & <strong>PHP/MySQLi (Backend)</strong></li>
+                <a className="workLink" href="https://github.com/Infinito-IIT-Patna/Infinito2020.git" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
                 </div>
             </div>
             <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
