@@ -15,9 +15,6 @@ export default function Education() {
     }, [])
     return (
         <div style={education_styles}>
-            {/* <div className="loc">
-                <p>Education</p>
-            </div> */}
             <div className="front_e">
                 <div className="left_e">
                     <img src={education} alt="" srcset="" />
@@ -33,7 +30,7 @@ export default function Education() {
                 <div className="img_ed">
                 <img src={iitp_logo} alt="" srcset="" />
                 </div>
-                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='CPI: 8.39 (1st Year)' link='https://www.iitp.ac.in/index.php/en-us/' />
+                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='CPI: 8.30 (until 3rd Semester)' link='https://www.iitp.ac.in/index.php/en-us/' />
             </div>
             <div className="educate_tag"  data-aos="fade-up" data-aos-once="true">
                 <div className="img_ed">

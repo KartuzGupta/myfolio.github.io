@@ -18,9 +18,6 @@ export default function Experience() {
     }, [])
     return (
             <div  style={exp_styles}>
-            {/* <div className="loc">
-                <p>Experience</p>
-            </div> */}
             <div className="front_ex" >
                 <div className="left_ex">
                     <img src={exp} alt="" srcset="" />
@@ -70,8 +67,8 @@ export default function Experience() {
                 </div>
                 <div className="exp_cont">
                 <Exp title='Infinito IIT Patna' position='Sub-Coord, Web and App Dev Committee' time='August 2021 - Present' link='https://www.linkedin.com/company/infinito-iit-patna/'/>
-                <li>Responsible for the development and maintenance of the Infinito2k21 Website.<br/>
-                    Worked on the <strong>Frontend</strong> as well as <strong>Backend</strong> of the Infinito2k21 website</li>
+                <li>Responsible for the development and maintenance of the Infinito2k21 Website.</li>
+                <li>Worked on the <strong>Frontend</strong> as well as <strong>Backend</strong> of the Infinito2k21 website .</li>
                 <li>Tech used: <strong>HTML/CSS/JavaScript (Frontend)</strong> & <strong>PHP/MySQLi (Backend)</strong></li>
                 <a className="workLink" href="https://github.com/Infinito-IIT-Patna/Infinito2020.git" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
                 </div>

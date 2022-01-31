@@ -9,14 +9,6 @@ import email from '../Img/email.png'
 import frontend from '../Img/frontendlogo.png'
 import cp from '../Img/cplogo.png'
 import devtool from '../Img/devtool.png'
-/*import html_logo from '../Img/htmllogo.png'
-import css_logo from '../Img/csslogo.png'
-import reactjs_logo from '../Img/reactjslogo.png'
-import js_logo from '../Img/jslogo.png'
-import c_logo from '../Img/clogo.png'
-import cpp_logo from '../Img/cpplogo.png'
-import btstrap from '../Img/btstrap.png'
-import gitbash from '../Img/gitbash.png'*/
 import Animated from '../components/Animated_bg'
 import Counterup from '../components/Counter_up'
 import Resume from '../Files/Resume.pdf'
@@ -30,9 +22,6 @@ export default function Home() {
     return (
         <div style={home_style}>
             <Animated />
-            {/* <div className="loc">
-                <p>Home</p>
-            </div> */}
             <div className="front">
                 <div className="left">
                     <img src={welocome} alt="Logo" srcset="" />
