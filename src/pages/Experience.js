@@ -70,6 +70,7 @@ export default function Experience() {
                 <li>Responsible for the development and maintenance of the Infinito2k21 Website.</li>
                 <li>Worked on the <strong>Frontend</strong> as well as <strong>Backend</strong> of the Infinito2k21 website .</li>
                 <li>Tech used: <strong>HTML/CSS/JavaScript (Frontend)</strong> & <strong>PHP/MySQLi (Backend)</strong></li>
+                <a className="workLink" href="http://infinito2k22.co.in/" target="_blank" rel="noreferrer" >&gt; Infinito Webiste</a>
                 <a className="workLink" href="https://github.com/Infinito-IIT-Patna/Infinito2020.git" target="_blank" rel="noreferrer" >&gt; Git Repository</a>
                 </div>
             </div>

@@ -10,21 +10,24 @@ import Navigator from './components/Navigator';
 import Skills from './pages/Skills';
 import Animated from './components/Animated_bg';
 import ScrollToTop from './components/ScrollToTop';
+//import React, { Component } from 'react'
+//import Test from './pages/test'
+
 function App() {
   return (
 
     <div className="App">
-      {/* <Navigation/> */}
       <Animated/>
       <Router>
         <ScrollToTop/>
-      <Navigator/>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Education" component={Education}/>
-        <Route exact path="/Experience" component={Experience}/>
-        <Route exact path="/Skills" component={Skills}/>
-      </Switch>
+        <Navigator/>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Education" component={Education}/>
+          <Route exact path="/Experience" component={Experience}/>
+          <Route exact path="/Skills" component={Skills}/>
+          {/* <Route exact path="/test" component={Test} /> */}
+        </Switch>
       </Router>
       <ScrollButton/>
      
