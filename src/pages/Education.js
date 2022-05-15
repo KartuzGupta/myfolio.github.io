@@ -30,7 +30,7 @@ export default function Education() {
                 <div className="img_ed">
                 <img src={iitp_logo} alt="" srcset="" />
                 </div>
-                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='CPI: 8.30 (until 3rd Semester)' link='https://www.iitp.ac.in/index.php/en-us/' />
+                <Edu title='Indian Institute of Technology , Patna' time='2020-Present' degree='B.Tech in Mechanical Engineering' marks='CPI: 8.57 (until 4th Semester)' link='https://www.iitp.ac.in/index.php/en-us/' />
             </div>
             </div>
             <div className="card">
