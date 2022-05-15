@@ -11,8 +11,9 @@ import cpp_logo from '../Img/cpplogo.png'
 import btstrap from '../Img/btstrap.png'
 import gitbash from '../Img/gitbash.png'
 import skill from '../Img/skills1.svg'
-import skill_style from './Skills.css'
+import skill_style from './css/Skills.css'
 import Counterup from '../components/Counter_up'
+import './css/card.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -33,8 +34,9 @@ export default function Skills() {
                     <p>– Will Smith</p>
                 </div>
             </div>
+
             <section className="skills">
-                
+                <div className="card">
                 <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={frontend} alt="" srcset="" />
@@ -46,6 +48,8 @@ export default function Skills() {
                     , ReactJS, PHP, MySQL, Bootstrap</p>
                     </div>
                </div>
+               </div>
+               <div className="card">
                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
@@ -58,6 +62,8 @@ export default function Skills() {
                     <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
                     </div>
                </div>
+               </div>
+               <div className="card">
                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
@@ -68,19 +74,21 @@ export default function Skills() {
                     <p>VS Code, GitHub</p>
                     </div>
                </div>
-               <div className="lang_edu">
-                <h1>Familiar with..</h1>
-                <div className="lang_box">
-                    <img src={html_logo} alt="" srcset="" data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={css_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={js_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={reactjs_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={c_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                    <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+               </div>
+
+                <div className="lang_edu" style={{marginTop:'40px'}}>
+                    <h1>Familiar with..</h1>
+                    <div className="lang_box">
+                        <img src={html_logo} alt="" srcset="" data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={css_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={js_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={reactjs_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={c_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                    </div>
                 </div>
-            </div>
             </section>
         </div>
     )

@@ -142,9 +142,7 @@
   font-size: 1.5rem;
   text-align: left;
 }
-.skill_tag:hover{
-  box-shadow: rgb(211, 230, 233) 0.7px 0.7px 1.2px 1.2px;
-}
+
 .skill_det{
   display: flex;
   flex-direction: column;
@@ -455,3 +453,5 @@
     font-size: 1rem;
   }
 }
+
+

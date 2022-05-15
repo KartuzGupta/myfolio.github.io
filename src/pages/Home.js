@@ -1,5 +1,5 @@
 import React from 'react'
-import home_style from './Home.css'
+import home_style from './css/Home.css'
 import welocome from '../Img/helloSvg.svg'
 import profile from '../Img/profile.png'
 import home from '../Img/home.png'
@@ -11,7 +11,9 @@ import cp from '../Img/cplogo.png'
 import devtool from '../Img/devtool.png'
 import Animated from '../components/Animated_bg'
 import Counterup from '../components/Counter_up'
-import Resume from '../Files/Resume.pdf'
+import './css/card.css'
+
+//import Resume from '../Files/Resume.pdf'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -43,7 +45,7 @@ export default function Home() {
                         </ul>
                     </div>
                     <div className="resume">
-                        <a href={Resume} target="_blank" rel="noreferrer" >
+                        <a href="https://drive.google.com/file/d/1DIZf9ePO0BGsF7ZH5QSSq8H47J-Yo2hK/view?usp=sharing" target="_blank" rel="noreferrer" >
                             <button class="custom-btn btn-15">View Resume</button>
                         </a>
                     </div>
@@ -84,18 +86,21 @@ export default function Home() {
             <section className="skills">
                 <h1>Skills</h1>
                 <hr className="hrhome"/>
-                <div className="skill_tag" data-aos="fade-out" data-aos-once="true">
+                <div className="card">
+                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={frontend} alt="" srcset="" />
                     </div>
                     <div className="skill_det">
                     <h1>Web Development</h1>
                     <hr className="hrdet"/>
-                    <p>Experienced with: HTML/CSS, JavaScript,
-                     ReactJS, PHP, MySQL, Bootstrap</p>
+                    <p>Experienced with: HTML/CSS, JavaScript
+                    , ReactJS, PHP, MySQL, Bootstrap</p>
                     </div>
                </div>
-               <div className="skill_tag" data-aos="fade-out" data-aos-once="true">
+               </div>
+               <div className="card">
+               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -103,11 +108,13 @@ export default function Home() {
                     <h1>Competitive Programming</h1>
                     <hr className="hrdet"/>
                     <p>Languages: C++ , C</p>
-                    <Counterup end="1711"  style={{color:'rgb(54, 8, 8)'}} /><p>(max. rating) on Codechef</p>
+                    <Counterup end="1711" /><p>(max. rating) on Codechef</p>
                     <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
                     </div>
                </div>
-               <div className="skill_tag" data-aos="fade-out" data-aos-once="true">
+               </div>
+               <div className="card" style={{marginBottom:'30px'}}>
+               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
                     </div>
@@ -116,6 +123,7 @@ export default function Home() {
                     <hr className="hrdet"/>
                     <p>VS Code, GitHub</p>
                     </div>
+               </div>
                </div>
               
             </section>
