@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import navbar_nav_styles from './Navigator.css'
+import navbar_nav_styles from '../components/css/Navigator.css'
 import write from '../Img/writeup.png'
 import { NavLink } from 'react-router-dom';
 export default function Navigator() {

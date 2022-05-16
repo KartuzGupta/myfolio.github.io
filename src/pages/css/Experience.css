@@ -28,7 +28,7 @@
     align-content: center;
 }
 .right_ex p{
-    background-color: #ffffffc9;
+    background-color: transparent;
     width: 70%;
     text-align: center;
 }
@@ -37,13 +37,14 @@
     flex-direction: row;
     justify-content: flex-start;
     align-content: center;
-    border: solid rgb(148, 149, 150) 1px;
+    /* border: solid rgb(148, 149, 150) 1px; */
     width: 60%;
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
-    background-color: #ffffffc9;;
-    
+    background-color: #ffffffc9;
+    box-shadow: 15px 0 15px 15px rgb(0 0 0 / 1%);
+
 }
 .educate_tag:hover{
     box-shadow: rgb(211, 230, 233) 0.7px 0.7px 1.2px 1.2px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import edu_style from './Edu.css'
+import edu_style from '../components/css/Edu.css'
 export default function Edu(props) {
     return (
         

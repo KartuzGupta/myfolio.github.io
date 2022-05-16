@@ -11,6 +11,8 @@ import cpp_logo from '../Img/cpplogo.png'
 import btstrap from '../Img/btstrap.png'
 import gitbash from '../Img/gitbash.png'
 import skill from '../Img/skills1.svg'
+import php from '../Img/php.png'
+import mysql from '../Img/mysql.png'
 import skill_style from './css/Skills.css'
 import Counterup from '../components/Counter_up'
 import './css/card.css'
@@ -83,10 +85,12 @@ export default function Skills() {
                         <img src={css_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={js_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={reactjs_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={php} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={mysql} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={c_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
-                        <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/> 
                     </div>
                 </div>
             </section>

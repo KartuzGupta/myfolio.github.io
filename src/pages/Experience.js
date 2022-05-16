@@ -8,7 +8,6 @@ import ecelllogo from '../Img/ecelllogo.png'
 import njacklogo from '../Img/njacklogo.jpg'
 import BarberaInternship from '../Files/BarberaInternship.pdf'
 import './css/card.css'
-
 //import gitLogo from '../Img/GitHub-Mark.png'
 //import linkedin from '../Img/linkedin.png'
 import Aos from 'aos';

@@ -1,5 +1,5 @@
 import React from 'react'
-import Exp_style from './Exp.css'
+import Exp_style from '../components/css/Exp.css'
 import info from '../Img/info.png'
 export default function Exp(props) {
     return (

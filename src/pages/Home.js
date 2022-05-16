@@ -36,7 +36,7 @@ export default function Home() {
                         <img src={profile} alt="" srcset="" />
                     </div>
                     <div className="wrapper">
-                        <div className="static-txt">I'm a</div>
+                        <div className="static-txt" style={{background:'transparent'}}>I'm a</div>
                         <ul className="dynamic-txts">
                         <li><span>Competitive Programmer</span></li>
                         <li><span>Web Developer</span></li>
@@ -86,7 +86,8 @@ export default function Home() {
             <section className="skills">
                 <h1>Skills</h1>
                 <hr className="hrhome"/>
-                <div className="card">
+                
+                <div className="card" >
                 <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
                     <img src={frontend} alt="" srcset="" />
@@ -99,6 +100,7 @@ export default function Home() {
                     </div>
                </div>
                </div>
+               
                <div className="card">
                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
                     <div className="img_skill">
