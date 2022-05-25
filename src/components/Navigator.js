@@ -25,9 +25,9 @@ export default function Navigator() {
             <li className="nav-item">
               <NavLink to="/Education" className="nav-link" activeStyle={{color: '#065d66', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Alma-Mater</NavLink>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="/">Projects</a>
-            </li> */}
+            <li className="nav-item">
+              <NavLink to="/ContactMe" className="nav-link" activeStyle={{color: '#065d66', borderBottom:'2px solid #589ba2', fontWeight: 500}}>Contact Me</NavLink>
+            </li>
           </ul>
         </div>
       </nav>

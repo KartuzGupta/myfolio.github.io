@@ -19,7 +19,8 @@ import './css/card.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-export default function Skills() {
+
+const Skills = () => {
     useEffect(() => {
         Aos.init({duration: 800});
     }, [])
@@ -60,7 +61,7 @@ export default function Skills() {
                     <h1>Competitive Programming</h1>
                     <hr className="hrdet"/>
                     <p>Languages: C++ , C</p>
-                    <Counterup end="1711" /><p>(max. rating) on Codechef</p>
+                    <Counterup end="1171" /><p>(max. rating) on Codechef</p>
                     <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
                     </div>
                </div>
@@ -95,5 +96,7 @@ export default function Skills() {
                 </div>
             </section>
         </div>
-    )
+    );
 }
+
+export default Skills;
