@@ -3,6 +3,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
 }
 
 .inputBoxes{
@@ -12,7 +14,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    margin-top: 140px;
+    margin-top: 40px;
     margin-bottom: 50px;
     border-radius: 10px;
     border: none;
@@ -61,7 +63,7 @@
 }
 @media only screen and (max-width: 500px) {
     .inputBox{
-        width: 275px;
+        width: 290px;
     }   
     .inputBoxes{
         padding: 15px;

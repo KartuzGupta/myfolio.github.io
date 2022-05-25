@@ -1,7 +1,7 @@
 import React , { useState } from 'react'
 import './css/Contact.css';
 import Loader from '../components/Loader';
-
+import {BiCheckCircle} from 'react-icons/bi';
 const Input = ({placeholder, name, type, value, handleChange, newClass}) => (
   <input 
       placeholder={placeholder}
@@ -18,7 +18,7 @@ const ContactMe = () => {
     const [nameRed, setNameRed] = useState(false);
     const [emailRed, setEmailRed] = useState(false);
     const [messageRed, setMessageRed] = useState(false);
-        
+    const [isSuccess, setIsSuccess] = useState(false);   
     const [isLoading, setIsLoading] = useState(false);
     const [data, setData] = useState({
         name:"",
@@ -34,6 +34,7 @@ const ContactMe = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setIsSuccess(false);
         if(!name || !email || !message){
             if(!name) setNameRed(true);
             else setNameRed(false);
@@ -68,7 +69,8 @@ const ContactMe = () => {
             email:"",
             message:""
             });
-            setIsLoading(false);      
+            setIsLoading(false);
+            setIsSuccess(true);      
         } catch (err) {
             console.log(err);
         }
@@ -77,6 +79,8 @@ const ContactMe = () => {
 
     return (
         <div className="formBox">
+
+            {isSuccess && <div style={{color:'green', display:'flex', alignItems:'center'}}><BiCheckCircle style={{fontSize:'18px'}}/><p style={{margin:'0'}}>Message Sent</p></div>}
             <div className="inputBoxes">
                 <Input placeholder="Name" name="name"  type="text" handleChange={handleChange} newClass={nameRed ? ("name redBox") : ("name")} value={name}/>
                 <Input placeholder="Email" name="email"  type="email" handleChange={handleChange} newClass={emailRed ? ("email redBox") : ("email")} value={email}/>
