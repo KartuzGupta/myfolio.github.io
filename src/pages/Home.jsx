@@ -6,17 +6,14 @@ import home from '../Img/home.png'
 import dob from '../Img/dob.png'
 import phone from '../Img/phone.png'
 import email from '../Img/email.png'
-import frontend from '../Img/frontendlogo.png'
-import cp from '../Img/cplogo.png'
-import devtool from '../Img/devtool.png'
 import Animated from '../components/Animated_bg'
-import Counterup from '../components/Counter_up'
 import './css/card.css'
 
 //import Resume from '../Files/Resume.pdf'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import SkillsUpper from '../components/SkillsUpper'
 export default function Home() {
     useEffect(() => {
         Aos.init({duration: 1000});
@@ -83,52 +80,7 @@ export default function Home() {
                     </div>    
                 </div>
             </section>
-            <section className="skills">
-                <h1>Skills</h1>
-                <hr className="hrhome"/>
-                
-                <div className="card" >
-                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
-                    <div className="img_skill">
-                    <img src={frontend} alt="" srcset="" />
-                    </div>
-                    <div className="skill_det">
-                    <h1>Web Development</h1>
-                    <hr className="hrdet"/>
-                    <p>Experienced with: HTML/CSS, JavaScript
-                    , ReactJS, PHP, MySQL, Bootstrap</p>
-                    </div>
-               </div>
-               </div>
-               
-               <div className="card">
-               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
-                    <div className="img_skill">
-                    <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
-                    </div>
-                    <div className="skill_det">
-                    <h1>Competitive Programming</h1>
-                    <hr className="hrdet"/>
-                    <p>Languages: C++ , C</p>
-                    <Counterup end="1711" /><p>(max. rating) on Codechef</p>
-                    <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
-                    </div>
-               </div>
-               </div>
-               <div className="card" style={{marginBottom:'30px'}}>
-               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
-                    <div className="img_skill">
-                    <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
-                    </div>
-                    <div className="skill_det">
-                    <h1>Other Developer Tools</h1>
-                    <hr className="hrdet"/>
-                    <p>VS Code, GitHub</p>
-                    </div>
-               </div>
-               </div>
-              
-            </section>
+            <SkillsUpper/>
         </div>
     )
 }

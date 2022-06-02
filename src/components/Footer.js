@@ -1,63 +1,95 @@
 import React from 'react'
-import footer_style from '../components/css/Footer.css'
-import {SiCodeforces , SiCodechef, SiTwitter, SiGmail} from "react-icons/si"
+import {SiCodechef, SiCodeforces, SiGmail, SiTwitter} from 'react-icons/si';
 import { VscGithubAlt } from "react-icons/vsc";
 import {GrLinkedinOption} from 'react-icons/gr'
 import {BsInstagram} from 'react-icons/bs'
+import './css/Footer.css';
 export default function Footer() {
-    /*const hr_style={
-        width: '50%',
-        display: 'block',
-        margin: 'auto',
-        backgroundColor: 'black'
-    }*/
 
+    const SocialDetails = [
+        {
+            "Iclass" : "fa-cf",
+            "ALink" : "https://codeforces.com/profile/aatma",
+            "SpanText" : "cf",
+        },
+        {
+            "Iclass" : "fa-cc",
+            "ALink" : "https://www.codechef.com/users/aatma",
+            "SpanText" : "cc",
+        },
+        {
+            "Iclass" : "fa-git",
+            "ALink" : "https://github.com/KartuzGupta",
+            "SpanText" : "git",
+        },
+        {
+            "Iclass" : "fa-linkedin",
+            "ALink" : "https://www.linkedin.com/in/kartikay-gupta/",
+            "SpanText" : "linkedin",
+        },
+        {
+            "Iclass" : "fa-gmail",
+            "ALink" : "mailto:kartikay.gupta2002@gmail.com",
+            "SpanText" : "gmail",
+        },
+        {
+            "Iclass" : "fa-twitter",
+            "ALink" : "https://twitter.com/aatma_0",
+            "SpanText" : "twitter",
+        },
+        {
+            "Iclass" : "fa-instagram",
+            "ALink" : "https://www.instagram.com/kartikay_gpt/",
+            "SpanText" : "instagram",
+        },
+        
+        
+    ];
+    const SocialImage = ({ImageName}) => {
+        if({ImageName}.ImageName === "cc"){
+            return <SiCodechef/>;
+        }
+        if({ImageName}.ImageName === "cf"){
+            return <SiCodeforces />;
+        }
+        if({ImageName}.ImageName === "gmail"){
+            return <SiGmail />;
+        }
+        if({ImageName}.ImageName === "git"){
+            return <VscGithubAlt />;
+        }
+        if({ImageName}.ImageName === "instagram"){
+            return <BsInstagram />;
+        }
+        if({ImageName}.ImageName === "linkedin"){
+            return <GrLinkedinOption />;
+        }
+        if({ImageName}.ImageName === "twitter"){
+            return <SiTwitter />;
+        }
+        
+    };
+    const Social = ({Iclass, ALink, SpanText}) => {
+        return (
+            <li className={Iclass}>
+                <a href={ALink}>
+                <span><SocialImage ImageName={SpanText}/></span>
+                </a>
+            </li>
+        );
+    }
+        
     return (
-        <div>
-            <footer style={footer_style}>
-                <div className="reach" >
-                    <div className="box_reach">
-                    <h1>CP Platforms</h1>
-                    {/* <hr style={hr_style}/> */}
-                    <div className="icon_box cp">
-                        <div className="icon_circle">
-                        <a href="https://codeforces.com/profile/aatma" target="_blank" rel="noreferrer">    
-                            <SiCodeforces/>
-                        </a>
-                        </div>
-                        <div className="icon_circle">
-                        <a href="https://www.codechef.com/users/aatma" target="_blank" rel="noreferrer"><SiCodechef /></a>
-                        </div> 
-                    </div>
-                    </div>
-                    <div className="box_reach">
-                    <h1>Stay in Touch</h1>
-                    {/* <hr style={hr_style} /> */}
-                    <div className="icon_box social" >
-                        <div className="icon_circle">
-                            <a href="https://github.com/KartuzGupta" target="_blank" rel="noreferrer" ><VscGithubAlt /></a>
-                        </div>
-                        <div className="icon_circle">
-                            <a href="https://www.linkedin.com/in/kartikay-gupta/" target="_blank" rel="noreferrer">< GrLinkedinOption /></a>
-                        </div>
-                        
-                        <div className="icon_circle">
-                            <a href="https://www.instagram.com/kartikay_gpt/" target="_blank" rel="noreferrer"><BsInstagram/></a>
-                        </div>
-
-                        <div className="icon_circle">
-                            <a href="https://twitter.com/aatma_0" target="_blank" rel="noreferrer"><SiTwitter/></a>
-                        </div>
-
-                        <div className="icon_circle">
-                            <a href="mailto:kartikay.gupta2002@gmail.com" target="_blank" rel="noreferrer"><SiGmail/></a>
-                        </div>
-                        
-                    </div>
-                    </div>  
-                     
-                </div>
-            </footer>
+        <div className='footer'> 
+            <ul>
+                {SocialDetails.map((element) => {
+                    return (
+                        <>
+                            <Social Iclass={element.Iclass} ALink={element.ALink} SpanText={element.SpanText}/>
+                        </>
+                    );
+                })}
+            </ul>
         </div>
     )
 }

@@ -70,7 +70,10 @@ const ContactMe = () => {
             message:""
             });
             setIsLoading(false);
-            setIsSuccess(true);      
+            setIsSuccess(true);    
+            setTimeout(function () {
+                setIsSuccess(false);
+            }, 5000);  
         } catch (err) {
             console.log(err);
         }

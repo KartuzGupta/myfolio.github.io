@@ -1,7 +1,3 @@
-import React from 'react'
-import frontend from '../Img/frontendlogo.png'
-import cp from '../Img/cplogo.png'
-import devtool from '../Img/devtool.png'
 import html_logo from '../Img/htmllogo.png'
 import css_logo from '../Img/csslogo.png'
 import reactjs_logo from '../Img/reactjslogo.png'
@@ -13,17 +9,21 @@ import gitbash from '../Img/gitbash.png'
 import skill from '../Img/skills1.svg'
 import php from '../Img/php.png'
 import mysql from '../Img/mysql.png'
+import tailwind from '../Img/tailwind.png'
+import solidity from '../Img/solidity.png'
 import skill_style from './css/Skills.css'
-import Counterup from '../components/Counter_up'
+import SkillsUpper from '../components/SkillsUpper'
 import './css/card.css'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
+
 const Skills = () => {
     useEffect(() => {
         Aos.init({duration: 800});
     }, [])
+
     return (
         <div>
             <div className="front_skill">
@@ -39,45 +39,8 @@ const Skills = () => {
             </div>
 
             <section className="skills">
-                <div className="card">
-                <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
-                    <div className="img_skill">
-                    <img src={frontend} alt="" srcset="" />
-                    </div>
-                    <div className="skill_det">
-                    <h1>Web Development</h1>
-                    <hr className="hrdet"/>
-                    <p>Experienced with: HTML/CSS, JavaScript
-                    , ReactJS, PHP, MySQL, Bootstrap</p>
-                    </div>
-               </div>
-               </div>
-               <div className="card">
-               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
-                    <div className="img_skill">
-                    <img src={cp} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
-                    </div>
-                    <div className="skill_det">
-                    <h1>Competitive Programming</h1>
-                    <hr className="hrdet"/>
-                    <p>Languages: C++ , C</p>
-                    <Counterup end="1171" /><p>(max. rating) on Codechef</p>
-                    <Counterup end="1103" /><p>(max. rating) on Codeforces</p>
-                    </div>
-               </div>
-               </div>
-               <div className="card">
-               <div className="skill_tag" data-aos="fade-up" data-aos-once="true">
-                    <div className="img_skill">
-                    <img src={devtool} alt="" srcset="" style={{height:'140px',width:'140px'}}/>
-                    </div>
-                    <div className="skill_det">
-                    <h1>Other Developer Tools</h1>
-                    <hr className="hrdet"/>
-                    <p>VS Code, GitHub</p>
-                    </div>
-               </div>
-               </div>
+
+                <SkillsUpper/>
 
                 <div className="lang_edu" style={{marginTop:'40px'}}>
                     <h1>Familiar with..</h1>
@@ -92,6 +55,9 @@ const Skills = () => {
                         <img src={cpp_logo} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={gitbash} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
                         <img src={btstrap} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/> 
+                        <img src={solidity} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+                        <img src={tailwind} alt="" srcset=""  data-aos="zoom-in-down" data-aos-once="true"/>
+
                     </div>
                 </div>
             </section>

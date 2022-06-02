@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
 import Home from './pages/Home.jsx';
 import Education from './pages/Education.jsx';
 import Experience from './pages/Experience.jsx';
@@ -11,6 +10,8 @@ import Skills from './pages/Skills.jsx';
 import Animated from './components/Animated_bg';
 import ScrollToTop from './components/ScrollToTop';
 import ContactMe from './pages/ContactMe'
+import Footer from './components/Footer';
+
 //import React, { Component } from 'react'
 //import Test from './pages/test'
 

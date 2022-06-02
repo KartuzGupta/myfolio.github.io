@@ -1,110 +1,195 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-.reach{
-    background-color:rgb(245 255 255 / 83%);
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    height: 170px;
-    align-items: center;
-}
-.box_reach{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.icon_box img{
-    height: 60px;
-    width: 60px;
-    border-radius: 60px;
-    margin:10px 10px;
-}
-.social{
-    display:grid;
-    grid-template-columns: repeat(5, 60px);
-    height: 60px;
-    grid-column-gap: 15px;
-}
-.cp{
+
+.footer ul {
+    position: relative;
     display: grid;
-    grid-template-columns: repeat(2,60px);
-    height: 60px;
-    grid-column-gap: 15px;
-}
-h1{
-    text-align:center;
-    font-size:1.5rem;
-    font-family:'Poppins' ;
-}
-
-.icon_box img:hover{
-    width: 65px;
-    height: 65px;
-    transition: height 0.2s, width 0.2s;
-}
-
-.box_reach{
-    width: 50%;
-}
-.icon_circle{
-    width: 60px;
-    height: 60px;
-    border-radius: 40px;
-    background-color: white;
+    grid-template-columns: repeat(7, 100px);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+  }
+  
+   .footer ul li {
+    list-style:none;
+    margin: auto;
+  }
+  
+   .footer ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height:80px;
+    transition: .5s;
+  }
+  
+   .footer ul li a span {
+    padding:0;
+    margin:0;
+    position: relative;
     display: flex;
     align-items: center;
+    align-items: center;
     justify-content: center;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-}
-.icon_box a{
-    color: #323044;
-    font-size: 40px;
-}
-.icon_circle svg{
-    align-content: center;
-}
-.social a{
-    font-size: 30px;
-}
-.icon_circle:hover svg{
-    color: rgb(134, 132, 128);
-}
-@media only screen and (max-width: 900px) {
-    .reach{
-        flex-direction: column;
-        height: 350px;
+    height: 100%;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+  
+  .footer ul li a span svg{
+      height: 100%;
+      width: 100%;
+  }
+   .footer ul li a {
+    text-decoration: none;
+    display: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60px;
+    height:60px;
+    background: #fff;
+    text-align:left;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+   .footer ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+   .footer ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+  
+   .footer ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+  
+   .footer ul li:hover .fa {
+    color:#fff;
+  }
+  
+   .footer ul li:hover span{
+    color:#fff;
+  }
+  
+   .fa-cf:hover a{
+    background: #1F8ACB;
+  }
+   .fa-cf:hover a:before{
+    background: #1a74ab;
+  }
+   .fa-cf:hover a:after{
+    background: #46aff0;
+  }
+  
+  .fa-cc:hover a{
+    background: #705746;
+  }
+   .fa-cc:hover a:before{
+    background: #3f3128;
+  }
+   .fa-cc:hover a:after{
+    background: #96745e;
+  }
+  
+   .fa-git:hover a{
+    background: #181717;
+  }
+   .fa-git:hover a:before{
+    background: #0c0c0c;
+  }
+   .fa-git:hover a:after{
+    background: #2e2c2c;
+  } 
+
+  .fa-instagram:hover a{
+    background: #E4405F;
+  }
+   .fa-instagram:hover a:before{
+    background: #ba374f;
+  }
+   .fa-instagram:hover a:after{
+    background: #f9647f;
+  } 
+ 
+  .fa-twitter:hover a{
+    background:  #1DA1F2;
+  }
+   .fa-twitter:hover a:before{
+    background:  #1a7cb8;
+  }
+   .fa-twitter:hover a:after{
+    background:  #5bb7f0;
+  } 
+  .fa-linkedin:hover a{
+    background: #0A66C2;
+  }
+   .fa-linkedin:hover a:before{
+    background: #0a4a89;
+  }
+   .fa-linkedin:hover a:after{
+    background: #2e8be8;
+  }
+  
+  .fa-gmail:hover a{
+    background: #EA4335;
+  }
+   .fa-gmail:hover a:before{
+    background: #ba362a;
+  }
+   .fa-gmail:hover a:after{
+    background: #e76559;
+  }
+  .footer span{
+      width: 40px;
+      height: 40px;
+  }
+
+@media only screen and (max-width: 950px) {
+      .footer ul{
+        grid-template-columns: repeat(4, 100px);
+      }
+  }
+
+@media only screen and (max-width: 650px) {
+        .footer ul{
+            grid-template-columns: repeat(3, 100px);
+        }
     }
-    .box_reach{
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 100%;
+
+@media only screen and (max-width: 650px) {
+    .footer ul{
+        grid-template-columns: repeat(3, 80px);
     }
-    .social{
-        grid-template-columns: repeat(5,50px);
-        height: 50px;
-        grid-column-gap: 15px;
+
+    .footer ul li a{
+        width: 40px;
+        height: 40px;
     }
-    .cp{
-        grid-template-columns: repeat(2,50px);
-        height: 50px;
-        grid-column-gap: 15px;
-    }
-    .cp a{
-        font-size: 30px;
-    }
-    
-}
-@media only screen and (max-width: 400px) {
-    .social img{
-        width: 45px;
-        height: 45px;
-    }
-    .social img:hover{
-        width: 50px;
-        height: 50px;
-    }
-    .reach{
-        padding-bottom: 30px;
+    .footer span{
+        width: 30px;
     }
 }
 
+    
 
