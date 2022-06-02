@@ -26,10 +26,10 @@ const Rating = ({username, platform}) => {
         } catch (error) {
             console.log(error);
         }
-    }
+    };
     useEffect(()=>{
-        if(username && platform) { fetchRating(); }
-        else { console.log("Error 1"); }
+        fetchRating();
+        // eslint-disable-next-line
     }, [username, platform]);
 
     return `${cfRating},${ccRating}`;
