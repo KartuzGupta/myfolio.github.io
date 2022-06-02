@@ -180,16 +180,28 @@
 @media only screen and (max-width: 650px) {
     .footer ul{
         grid-template-columns: repeat(3, 80px);
+        grid-row-gap: 30px ;
     }
 
     .footer ul li a{
         width: 40px;
         height: 40px;
+        box-shadow: -10px 10px 10px rgb(0 0 0 / 50%)
     }
     .footer span{
         width: 30px;
     }
+    .footer ul li a:after{            
+        bottom: -11px;
+        left: -6px;
+        height: 13px;
+    }
+    .footer ul li a:before{
+        top: 5px;
+        left: -12px;
+        height: 100%;
+        width: 13px;
+    }
 }
 
     
-
