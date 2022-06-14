@@ -13,15 +13,15 @@ const Rating = ({username, platform}) => {
     const Platform = {platform}.platform;
     console.log(Username);
     console.log(Platform);
-    const[cfRating, setCfRating] = useState(0);
-    const ccRating = "1711";
+    const[Rating, setRating] = useState(0);
     const fetchRating = async () => {
         try {
             fetch(`https://competitive-coding-api.herokuapp.com/api/${Platform}/${Username}`)
                 .then((res) => res.json())
                 .then((data) => {
-                console.log(data["max rating"]);
-                setCfRating(data["max rating"]);
+                //console.log(data["max rating"]);
+                if( Platform === "codeforces") setRating(data["max rating"]);
+                else if( Platform === "codechef") setRating(data["highest_rating"]);
                 })
         } catch (error) {
             console.log(error);
@@ -32,17 +32,18 @@ const Rating = ({username, platform}) => {
         // eslint-disable-next-line
     }, [username, platform]);
 
-    return `${cfRating},${ccRating}`;
+    return `${Rating}`;
 }
 
 const SkillsUpper = () => {
     useEffect(() => {
         Aos.init({duration: 800});
     }, [])
-    const ratingArray =Rating({username:"aatma", platform:"codeforces"}).split(',');
-    const CfRating = ratingArray[0];
-    const CcRating = ratingArray[1]; 
+    const CfRating =Rating({username:"aatma", platform:"codeforces"});
+    const CcRating =Rating({username:"aatma", platform:"codechef"});
 
+    console.log(CfRating);
+    console.log(CcRating);
     return (
         <div>
             
